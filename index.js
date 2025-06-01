@@ -289,7 +289,7 @@ app.post('/contacts', async (req, res) => {
 
 // Contact-info to show in backend starts
 
-app.get("/contact-info", async (req, res) => {
+app.get("/api/contact-info", async (req, res) => {
   try {
     const contacts = await User.find();
     res.json({ success: true, data:contacts });
