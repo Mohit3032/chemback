@@ -1,0 +1,1712 @@
+[
+  {
+    "id": 1,
+    "category": "DCI_SULPHITES, Chloride & Sulphates",
+    "routing_category": "sulphites-chloride-sulphates",
+    "category_img": "/products/cat/cat6.jpg",
+    "products": [
+      {
+        "id": 1,
+        "title": "Sodium Sulphite Anhydrous",
+        "fulldescription": "Sodium sulphite anhydrous (Na₂SO₃) is a white powder used as a reducing agent in chemical industries. It prevents oxidation in water treatment, textiles, and photography. It acts as a preservative by inhibiting bacterial growth. In pulp and paper industries, it plays a role in delignification. Exposure can irritate the skin and eyes, so handling with protection is advised. It must be stored in dry, well-sealed containers away from moisture.",
+        "description": "Sodium Sulphite Anhydrous by DCI. Weight: 1.5 kg, Dimensions: 18 x 11 x 7 cm. Rated 3.0★ (34 reviews). Standard shipping: $7.95. Care: Store in a dry, cool place.",
+        "category": "DCI_SULPHITES, Chloride & Sulphates",
+        "price": {
+          "current": 28.1,
+          "original": 88.14
+        },
+        "rating": {
+          "stars": 3,
+          "reviews_count": 34
+        },
+        "colors": [
+          "White"
+        ],
+        "quantity": 1,
+        "image": "/products/scs/sla.jpg",
+        "details": {
+          "weight": "1.5 kg",
+          "dimensions": "18 x 11 x 7 cm",
+          "color_options": [
+            "White"
+          ],
+          "sizes": [
+            "Standard"
+          ],
+          "model": "DCI-SO001",
+          "shipping": "Standard shipping: $7.95",
+          "care_info": "Store in a dry, cool place",
+          "brand": "DCI"
+        }
+      },
+      {
+        "id": 2,
+        "title": "Sodium Metabisulphite",
+        "fulldescription": "Sodium metabisulfite (Na₂S₂O₅) is a white, crystalline powder commonly used as a disinfectant, antioxidant, and preservative. It releases sulfur dioxide (SO₂) when dissolved in water, which inhibits microbial growth and oxidation. It's widely used in the food industry (E223) to preserve color and shelf life of dried fruits, wines, and juices. In pharmaceuticals and cosmetics, it prevents spoilage and maintains product stability. It is also used in water treatment, photography, and textile bleaching. However, it can cause allergic reactions or respiratory irritation in sensitive individuals.",
+        "description": "Sodium Metabisulphite by DCI. Weight: 1.0 kg, Dimensions: 19 x 6 x 6 cm. Rated 3.6★ (16 reviews). Standard shipping: $7.95. Care: Store in a dry, cool place.",
+        "category": "DCI_SULPHITES, Chloride & Sulphates",
+        "price": {
+          "current": 28.02,
+          "original": 97.28
+        },
+        "rating": {
+          "stars": 3.6,
+          "reviews_count": 16
+        },
+        "colors": [
+          "White"
+        ],
+        "quantity": 1,
+        "image": "/products/scs/sm.jpg",
+        "details": {
+          "weight": "1.0 kg",
+          "dimensions": "19 x 6 x 6 cm",
+          "color_options": [
+            "White"
+          ],
+          "sizes": [
+            "Standard"
+          ],
+          "model": "DCI-SO002",
+          "shipping": "Standard shipping: $7.95",
+          "care_info": "Store in a dry, cool place",
+          "brand": "DCI"
+        }
+      },
+      {
+        "id": 3,
+        "title": "Sodium Bisulphite",
+        "fulldescription": "Sodium bisulfite (NaHSO₃) is a reducing agent used in dechlorination, bleaching, and preservation. It neutralizes chlorine in water treatment systems and serves as a preservative in food and beverages. It releases SO₂ gas under acidic conditions, aiding in microbial inhibition. Sodium bisulfite is also used in leather processing and pharmaceutical formulation. Irritating to eyes and respiratory tract; handle in ventilated areas. Store in sealed containers to avoid moisture absorption.",
+        "description": "Sodium Bisulphite by DCI. Weight: 3.0 kg, Dimensions: 18 x 6 x 3 cm. Rated 4.6★ (34 reviews). Standard shipping: $7.95. Care: Store in a dry, cool place.",
+        "category": "DCI_SULPHITES, Chloride & Sulphates",
+        "price": {
+          "current": 31.42,
+          "original": 86.68
+        },
+        "rating": {
+          "stars": 4.6,
+          "reviews_count": 34
+        },
+        "colors": [
+          "White"
+        ],
+        "quantity": 1,
+        "image": "/products/scs/sb.jpg",
+        "details": {
+          "weight": "3.0 kg",
+          "dimensions": "18 x 6 x 3 cm",
+          "color_options": [
+            "White"
+          ],
+          "sizes": [
+            "Standard"
+          ],
+          "model": "DCI-SO003",
+          "shipping": "Standard shipping: $7.95",
+          "care_info": "Store in a dry, cool place",
+          "brand": "DCI"
+        }
+      },
+      {
+        "id": 4,
+        "title": "Potassium Metabisulphite",
+        "fulldescription": "Potassium metabisulfite (K₂S₂O₅) is commonly used in winemaking and brewing to sterilize equipment and prevent spoilage. It acts as an antioxidant and antimicrobial agent, preserving color and flavor. It also inhibits wild yeast growth. Used in food as E224, it's effective at controlling oxidation. Potassium metabisulfite is favored for its lower sodium content. It decomposes to release SO₂ gas when dissolved, which acts as a sanitizer. Proper PPE is needed due to potential respiratory irritation.",
+        "description": "Potassium Metabisulphite by DCI. Weight: 1.9 kg, Dimensions: 15 x 15 x 6 cm. Rated 3.7★ (47 reviews). Standard shipping: $7.95. Care: Store in a dry, cool place.",
+        "category": "DCI_SULPHITES, Chloride & Sulphates",
+        "price": {
+          "current": 59.2,
+          "original": 117.71
+        },
+        "rating": {
+          "stars": 3.7,
+          "reviews_count": 47
+        },
+        "colors": [
+          "White"
+        ],
+        "quantity": 1,
+        "image": "/products/scs/pm.jpg",
+        "details": {
+          "weight": "1.9 kg",
+          "dimensions": "15 x 15 x 6 cm",
+          "color_options": [
+            "White"
+          ],
+          "sizes": [
+            "Standard"
+          ],
+          "model": "DCI-PO004",
+          "shipping": "Standard shipping: $7.95",
+          "care_info": "Store in a dry, cool place",
+          "brand": "DCI"
+        }
+      },
+      {
+        "id": 5,
+        "title": "Sodium Hypochloride",
+        "fulldescription": "Sodium hypochlorite (NaOCl) is a pale greenish-yellow solution with strong disinfectant properties. It is the active ingredient in household bleach and is used for sanitation in water treatment. In healthcare, it's used for surface sterilization and endodontics. It is also widely used in laundry and sanitation industries. Highly effective against bacteria, viruses, and fungi. It must be handled carefully, as it’s corrosive to skin and mucous membranes. Store in a cool, well-ventilated place away from acids.",
+        "description": "Sodium Hypochloride by DCI. Weight: 4.7 kg, Dimensions: 12 x 7 x 4 cm. Rated 5.0★ (16 reviews). Standard shipping: $7.95. Care: Store in a dry, cool place.",
+        "category": "DCI_SULPHITES, Chloride & Sulphates",
+        "price": {
+          "current": 25.36,
+          "original": 87.26
+        },
+        "rating": {
+          "stars": 5,
+          "reviews_count": 16
+        },
+        "colors": [
+          "White"
+        ],
+        "quantity": 1,
+        "image": "/products/scs/shp.jpg",
+        "details": {
+          "weight": "4.7 kg",
+          "dimensions": "12 x 7 x 4 cm",
+          "color_options": [
+            "White"
+          ],
+          "sizes": [
+            "Standard"
+          ],
+          "model": "DCI-SO005",
+          "shipping": "Standard shipping: $7.95",
+          "care_info": "Store in a dry, cool place",
+          "brand": "DCI"
+        }
+      },
+      {
+        "id": 6,
+        "title": "Potassium Nitrate",
+        "fulldescription": "PotassiumNitrate is an industrial-grade chemical used in manufacturing, laboratory processes, or consumer products. It supports cleaning, reaction control, or preservation functions. The compound may serve as a solvent, additive, or reagent. Its use spans food processing, pharmaceuticals, water purification, or textile treatment. Safety data sheets should be followed strictly. Protective gear is recommended during handling.",
+        "description": "Potassium Nitrate by DCI. Weight: 1.9 kg, Dimensions: 20 x 13 x 10 cm. Rated 3.7★ (48 reviews). Standard shipping: $7.95. Care: Store in a dry, cool place.",
+        "category": "DCI_SULPHITES, Chloride & Sulphates",
+        "price": {
+          "current": 40,
+          "original": 108.56
+        },
+        "rating": {
+          "stars": 3.7,
+          "reviews_count": 48
+        },
+        "colors": [
+          "White"
+        ],
+        "quantity": 1,
+        "image": "/products/scs/ptn.jpg",
+        "details": {
+          "weight": "1.9 kg",
+          "dimensions": "20 x 13 x 10 cm",
+          "color_options": [
+            "White"
+          ],
+          "sizes": [
+            "Standard"
+          ],
+          "model": "DCI-PO006",
+          "shipping": "Standard shipping: $7.95",
+          "care_info": "Store in a dry, cool place",
+          "brand": "DCI"
+        }
+      },
+      {
+        "id": 7,
+        "title": "Potassium Chloride",
+        "fulldescription": "PotassiumChloride is an industrial-grade chemical used in manufacturing, laboratory processes, or consumer products. It supports cleaning, reaction control, or preservation functions. The compound may serve as a solvent, additive, or reagent. Its use spans food processing, pharmaceuticals, water purification, or textile treatment. Safety data sheets should be followed strictly. Protective gear is recommended during handling.",
+        "description": "Potassium Chloride by DCI. Weight: 3.8 kg, Dimensions: 14 x 9 x 10 cm. Rated 4.3★ (32 reviews). Standard shipping: $7.95. Care: Store in a dry, cool place.",
+        "category": "DCI_SULPHITES, Chloride & Sulphates",
+        "price": {
+          "current": 77.23,
+          "original": 108.49
+        },
+        "rating": {
+          "stars": 4.3,
+          "reviews_count": 32
+        },
+        "colors": [
+          "White"
+        ],
+        "quantity": 1,
+        "image": "/products/scs/ptc.jpg",
+        "details": {
+          "weight": "3.8 kg",
+          "dimensions": "14 x 9 x 10 cm",
+          "color_options": [
+            "White"
+          ],
+          "sizes": [
+            "Standard"
+          ],
+          "model": "DCI-PO007",
+          "shipping": "Standard shipping: $7.95",
+          "care_info": "Store in a dry, cool place",
+          "brand": "DCI"
+        }
+      },
+      {
+        "id": 8,
+        "title": "Ammonium Sulphate",
+        "fulldescription": "AmmoniumSulphate is an industrial-grade chemical used in manufacturing, laboratory processes, or consumer products. It supports cleaning, reaction control, or preservation functions. The compound may serve as a solvent, additive, or reagent. Its use spans food processing, pharmaceuticals, water purification, or textile treatment. Safety data sheets should be followed strictly. Protective gear is recommended during handling.",
+        "description": "Ammonium Sulphate by DCI. Weight: 4.9 kg, Dimensions: 19 x 6 x 3 cm. Rated 3.9★ (23 reviews). Standard shipping: $7.95. Care: Store in a dry, cool place.",
+        "category": "DCI_SULPHITES, Chloride & Sulphates",
+        "price": {
+          "current": 78.05,
+          "original": 97.96
+        },
+        "rating": {
+          "stars": 3.9,
+          "reviews_count": 23
+        },
+        "colors": [
+          "White"
+        ],
+        "quantity": 1,
+        "image": "/products/scs/amsl.jpg",
+        "details": {
+          "weight": "4.9 kg",
+          "dimensions": "19 x 6 x 3 cm",
+          "color_options": [
+            "White"
+          ],
+          "sizes": [
+            "Standard"
+          ],
+          "model": "DCI-AM008",
+          "shipping": "Standard shipping: $7.95",
+          "care_info": "Store in a dry, cool place",
+          "brand": "DCI"
+        }
+      },
+      {
+        "id": 9,
+        "title": "Magnesium Sulphate",
+        "fulldescription": "MagnesiumSulphate is an industrial-grade chemical used in manufacturing, laboratory processes, or consumer products. It supports cleaning, reaction control, or preservation functions. The compound may serve as a solvent, additive, or reagent. Its use spans food processing, pharmaceuticals, water purification, or textile treatment. Safety data sheets should be followed strictly. Protective gear is recommended during handling.",
+        "description": "Magnesium Sulphate by DCI. Weight: 2.8 kg, Dimensions: 12 x 14 x 10 cm. Rated 3.5★ (28 reviews). Standard shipping: $7.95. Care: Store in a dry, cool place.",
+        "category": "DCI_SULPHITES, Chloride & Sulphates",
+        "price": {
+          "current": 33.99,
+          "original": 96.5
+        },
+        "rating": {
+          "stars": 3.5,
+          "reviews_count": 28
+        },
+        "colors": [
+          "White"
+        ],
+        "quantity": 1,
+        "image": "/products/scs/mgsl.jpg",
+        "details": {
+          "weight": "2.8 kg",
+          "dimensions": "12 x 14 x 10 cm",
+          "color_options": [
+            "White"
+          ],
+          "sizes": [
+            "Standard"
+          ],
+          "model": "DCI-MA009",
+          "shipping": "Standard shipping: $7.95",
+          "care_info": "Store in a dry, cool place",
+          "brand": "DCI"
+        }
+      },
+      {
+        "id": 10,
+        "title": "Potassium Sulphate",
+        "fulldescription": "PotassiumSulphate is an industrial-grade chemical used in manufacturing, laboratory processes, or consumer products. It supports cleaning, reaction control, or preservation functions. The compound may serve as a solvent, additive, or reagent. Its use spans food processing, pharmaceuticals, water purification, or textile treatment. Safety data sheets should be followed strictly. Protective gear is recommended during handling.",
+        "description": "Potassium Sulphate by DCI. Weight: 4.7 kg, Dimensions: 13 x 12 x 9 cm. Rated 3.5★ (31 reviews). Standard shipping: $7.95. Care: Store in a dry, cool place.",
+        "category": "DCI_SULPHITES, Chloride & Sulphates",
+        "price": {
+          "current": 65.27,
+          "original": 91.34
+        },
+        "rating": {
+          "stars": 3.5,
+          "reviews_count": 31
+        },
+        "colors": [
+          "White"
+        ],
+        "quantity": 1,
+        "image": "/products/scs/ksl.jpg",
+        "details": {
+          "weight": "4.7 kg",
+          "dimensions": "13 x 12 x 9 cm",
+          "color_options": [
+            "White"
+          ],
+          "sizes": [
+            "Standard"
+          ],
+          "model": "DCI-PO010",
+          "shipping": "Standard shipping: $7.95",
+          "care_info": "Store in a dry, cool place",
+          "brand": "DCI"
+        }
+      },
+      {
+        "id": 11,
+        "title": "Copper Sulphate Lumps/Crystal",
+        "fulldescription": "CopperSulphateLumps/Crystal is an industrial-grade chemical used in manufacturing, laboratory processes, or consumer products. It supports cleaning, reaction control, or preservation functions. The compound may serve as a solvent, additive, or reagent. Its use spans food processing, pharmaceuticals, water purification, or textile treatment. Safety data sheets should be followed strictly. Protective gear is recommended during handling.",
+        "description": "Copper Sulphate Lumps/Crystal by DCI. Weight: 3.8 kg, Dimensions: 17 x 9 x 3 cm. Rated 3.4★ (37 reviews). Standard shipping: $7.95. Care: Store in a dry, cool place.",
+        "category": "DCI_SULPHITES, Chloride & Sulphates",
+        "price": {
+          "current": 30.49,
+          "original": 96.42
+        },
+        "rating": {
+          "stars": 3.4,
+          "reviews_count": 37
+        },
+        "colors": [
+          "White"
+        ],
+        "quantity": 1,
+        "image": "/products/scs/csllc.jpg",
+        "details": {
+          "weight": "3.8 kg",
+          "dimensions": "17 x 9 x 3 cm",
+          "color_options": [
+            "White"
+          ],
+          "sizes": [
+            "Standard"
+          ],
+          "model": "DCI-CO011",
+          "shipping": "Standard shipping: $7.95",
+          "care_info": "Store in a dry, cool place",
+          "brand": "DCI"
+        }
+      },
+      {
+        "id": 12,
+        "title": "Zinc Sulphate",
+        "fulldescription": "ZincSulphate is an industrial-grade chemical used in manufacturing, laboratory processes, or consumer products. It supports cleaning, reaction control, or preservation functions. The compound may serve as a solvent, additive, or reagent. Its use spans food processing, pharmaceuticals, water purification, or textile treatment. Safety data sheets should be followed strictly. Protective gear is recommended during handling.",
+        "description": "Zinc Sulphate by DCI. Weight: 3.8 kg, Dimensions: 15 x 12 x 6 cm. Rated 4.3★ (50 reviews). Standard shipping: $7.95. Care: Store in a dry, cool place.",
+        "category": "DCI_SULPHITES, Chloride & Sulphates",
+        "price": {
+          "current": 28.37,
+          "original": 93.08
+        },
+        "rating": {
+          "stars": 4.3,
+          "reviews_count": 50
+        },
+        "colors": [
+          "White"
+        ],
+        "quantity": 1,
+        "image": "/products/scs/zsl.jpg",
+        "details": {
+          "weight": "3.8 kg",
+          "dimensions": "15 x 12 x 6 cm",
+          "color_options": [
+            "White"
+          ],
+          "sizes": [
+            "Standard"
+          ],
+          "model": "DCI-ZI012",
+          "shipping": "Standard shipping: $7.95",
+          "care_info": "Store in a dry, cool place",
+          "brand": "DCI"
+        }
+      },
+      {
+        "id": 13,
+        "title": "Ferrous Sulphate",
+        "fulldescription": "FerrousSulphate is an industrial-grade chemical used in manufacturing, laboratory processes, or consumer products. It supports cleaning, reaction control, or preservation functions. The compound may serve as a solvent, additive, or reagent. Its use spans food processing, pharmaceuticals, water purification, or textile treatment. Safety data sheets should be followed strictly. Protective gear is recommended during handling.",
+        "description": "Ferrous Sulphate by DCI. Weight: 3.0 kg, Dimensions: 17 x 15 x 10 cm. Rated 3.5★ (12 reviews). Standard shipping: $7.95. Care: Store in a dry, cool place.",
+        "category": "DCI_SULPHITES, Chloride & Sulphates",
+        "price": {
+          "current": 61.61,
+          "original": 81.03
+        },
+        "rating": {
+          "stars": 3.5,
+          "reviews_count": 12
+        },
+        "colors": [
+          "White"
+        ],
+        "quantity": 1,
+        "image": "/products/scs/fsl.jpg",
+        "details": {
+          "weight": "3.0 kg",
+          "dimensions": "17 x 15 x 10 cm",
+          "color_options": [
+            "White"
+          ],
+          "sizes": [
+            "Standard"
+          ],
+          "model": "DCI-FE013",
+          "shipping": "Standard shipping: $7.95",
+          "care_info": "Store in a dry, cool place",
+          "brand": "DCI"
+        }
+      },
+      {
+        "id": 14,
+        "title": "gjhb",
+        "fulldescription": " nbvnvhgvhgvhgvhgvghvhg",
+        "description": "bjhbjhb",
+        "routing_category": "g",
+        "price": {
+          "current": 5453,
+          "original": 49
+        },
+        "rating": {
+          "stars": null,
+          "reviews_count": 0
+        },
+        "quantity": 1,
+        "colors": [
+          "jjhkjjb"
+        ],
+        "details": {
+          "weight": "jkbik",
+          "dimensions": "24 + 7",
+          "color_options": [
+            "kj"
+          ],
+          "sizes": [
+            "bmbkj"
+          ],
+          "model": "dscd",
+          "shipping": "dcscs",
+          "care_info": "dssd",
+          "brand": "dcssd"
+        },
+        "image": "/products/scs/1746948242544.jpg"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "category": "DCI_QUAT",
+    "routing_category": "quaternary-ammonium-compounds",
+    "category_img": "/products/cat/cat1.jpg",
+    "products": [
+      {
+        "id": 1,
+        "title": "Benzalkonium Chloride 50%-80%",
+        "fulldescription": "BenzalkoniumChloride50%-80% is an industrial-grade chemical used in manufacturing, laboratory processes, or consumer products. It supports cleaning, reaction control, or preservation functions. The compound may serve as a solvent, additive, or reagent. Its use spans food processing, pharmaceuticals, water purification, or textile treatment. Safety data sheets should be followed strictly. Protective gear is recommended during handling.",
+        "description": "Benzalkonium Chloride 50%-80% by DCI. Weight: 2.4 kg, Dimensions: 17 x 8 x 8 cm. Rated 3.2★ (10 reviews). Standard shipping: $7.95. Care: Store in a dry, cool place.",
+        "category": "DCI_QUAT",
+        "price": {
+          "current": 65.21,
+          "original": 82.21
+        },
+        "rating": {
+          "stars": 3.2,
+          "reviews_count": 10
+        },
+        "colors": [
+          "White"
+        ],
+        "quantity": 1,
+        "image": "/products/qac/bcl.png",
+        "details": {
+          "weight": "2.4 kg",
+          "dimensions": "17 x 8 x 8 cm",
+          "color_options": [
+            "White"
+          ],
+          "sizes": [
+            "Standard"
+          ],
+          "model": "DCI-BE001",
+          "shipping": "Standard shipping: $7.95",
+          "care_info": "Store in a dry, cool place",
+          "brand": "DCI"
+        }
+      },
+      {
+        "id": 2,
+        "title": "Cetyl Trimethyl Ammonium Chloride 30%-50%",
+        "fulldescription": "Cetyl Trimethyl Ammonium Chloride 30%-50% is a quaternary ammonium compound used as a surfactant and emulsifier in various applications. It is effective in personal care products, providing conditioning and antimicrobial properties. It is also used in industrial applications for its ability to stabilize emulsions and enhance cleaning efficiency.",
+        "description": "Cetyl Trimethyl Ammonium Chloride 30%-50% by DCI. Weight: 3.0 kg, Dimensions: 17 x 5 x 3 cm. Rated 5.0★ (13 reviews). Standard shipping: $7.95. Care: Store in a dry, cool place.",
+        "category": "DCI_QUAT",
+        "price": {
+          "current": 39.26,
+          "original": 89.23
+        },
+        "rating": {
+          "stars": 5,
+          "reviews_count": 13
+        },
+        "colors": [
+          "White"
+        ],
+        "quantity": 1,
+        "image": "/products/qac/ctacl.jpg",
+        "details": {
+          "weight": "3.0 kg",
+          "dimensions": "17 x 5 x 3 cm",
+          "color_options": [
+            "White"
+          ],
+          "sizes": [
+            "Standard"
+          ],
+          "model": "DCI-CE002",
+          "shipping": "Standard shipping: $7.95",
+          "care_info": "Store in a dry, cool place",
+          "brand": "DCI"
+        }
+      },
+      {
+        "id": 3,
+        "title": "Dodecyltrimethyl Ammonium Chloride",
+        "fulldescription": "Dodecyltrimethyl Ammonium Chloride is a quaternary ammonium compound that acts as a surfactant and disinfectant. It is commonly used in personal care products and industrial applications for its antimicrobial properties and ability to enhance cleaning efficiency.",
+        "description": "Dodecyltrimethyl Ammonium Chloride by DCI. Weight: 4.8 kg, Dimensions: 12 x 5 x 9 cm. Rated 4.6★ (35 reviews). Standard shipping: $7.95. Care: Store in a dry, cool place.",
+        "category": "DCI_QUAT",
+        "price": {
+          "current": 20.21,
+          "original": 93.54
+        },
+        "rating": {
+          "stars": 4.6,
+          "reviews_count": 35
+        },
+        "colors": [
+          "White"
+        ],
+        "quantity": 1,
+        "image": "/products/qac/dtacl.jpg",
+        "details": {
+          "weight": "4.8 kg",
+          "dimensions": "12 x 5 x 9 cm",
+          "color_options": [
+            "White"
+          ],
+          "sizes": [
+            "Standard"
+          ],
+          "model": "DCI-DO003",
+          "shipping": "Standard shipping: $7.95",
+          "care_info": "Store in a dry, cool place",
+          "brand": "DCI"
+        }
+      },
+      {
+        "id": 4,
+        "title": "Stearyltrimethyl Ammonium Chloride",
+        "fulldescription": "Stearyltrimethyl Ammonium Chloride is a quaternary ammonium compound used primarily as a surfactant and emulsifier. It is effective in personal care formulations, providing conditioning properties and enhancing product stability.",
+        "description": "Stearyltrimethyl Ammonium Chloride by DCI. Weight: 1.2 kg, Dimensions: 19 x 12 x 8 cm. Rated 3.2★ (39 reviews). Standard shipping: $7.95. Care: Store in a dry, cool place.",
+        "category": "DCI_QUAT",
+        "price": {
+          "current": 32.23,
+          "original": 90.38
+        },
+        "rating": {
+          "stars": 3.2,
+          "reviews_count": 39
+        },
+        "colors": [
+          "White"
+        ],
+        "quantity": 1,
+        "image": "/products/qac/stmacl.jpg",
+        "details": {
+          "weight": "1.2 kg",
+          "dimensions": "19 x 12 x 8 cm",
+          "color_options": [
+            "White"
+          ],
+          "sizes": [
+            "Standard"
+          ],
+          "model": "DCI-ST004",
+          "shipping": "Standard shipping: $7.95",
+          "care_info": "Store in a dry, cool place",
+          "brand": "DCI"
+        }
+      },
+      {
+        "id": 5,
+        "title": "Phenyl Trimethyl Ammonium Chloride",
+        "fulldescription": "Phenyl Trimethyl Ammonium Chloride is a quaternary ammonium compound that serves as a surfactant and antimicrobial agent. It is commonly used in personal care products and industrial applications for its cleaning and conditioning properties.",
+        "description": "Phenyl Trimethyl Ammonium Chloride by DCI. Weight: 3.5 kg, Dimensions: 11 x 7 x 6 cm. Rated 4.2★ (21 reviews). Standard shipping: $7.95. Care: Store in a dry, cool place.",
+        "category": "DCI_QUAT",
+        "price": {
+          "current": 40.31,
+          "original": 84.5
+        },
+        "rating": {
+          "stars": 4.2,
+          "reviews_count": 21
+        },
+        "colors": [
+          "White"
+        ],
+        "quantity": 1,
+        "image": "/products/qac/ptacl.jpg",
+        "details": {
+          "weight": "3.5 kg",
+          "dimensions": "11 x 7 x 6 cm",
+          "color_options": [
+            "White"
+          ],
+          "sizes": [
+            "Standard"
+          ],
+          "model": "DCI-PH005",
+          "shipping": "Standard shipping: $7.95",
+          "care_info": "Store in a dry, cool place",
+          "brand": "DCI"
+        }
+      },
+      {
+        "id": 6,
+        "title": "Tri Ethyl Benzyl Ammonium Chloride",
+        "fulldescription": "Tri Ethyl Benzyl Ammonium Chloride is a quaternary ammonium compound used for its surfactant and antimicrobial properties. It is effective in personal care formulations and industrial cleaning applications.",
+        "description": "Tri Ethyl Benzyl Ammonium Chloride by DCI. Weight: 1.2 kg, Dimensions: 13 x 6 x 6 cm. Rated 4.7★ (13 reviews). Standard shipping: $7.95. Care: Store in a dry, cool place.",
+        "category": "DCI_QUAT",
+        "price": {
+          "current": 56.79,
+          "original": 117.15
+        },
+        "rating": {
+          "stars": 4.7,
+          "reviews_count": 13
+        },
+        "colors": [
+          "White"
+        ],
+        "quantity": 1,
+        "image": "/products/qac/tbacl.png",
+        "details": {
+          "weight": "1.2 kg",
+          "dimensions": "13 x 6 x 6 cm",
+          "color_options": [
+            "White"
+          ],
+          "sizes": [
+            "Standard"
+          ],
+          "model": "DCI-TR006",
+          "shipping": "Standard shipping: $7.95",
+          "care_info": "Store in a dry, cool place",
+          "brand": "DCI"
+        }
+      },
+      {
+        "id": 7,
+        "title": "Tetra Butyl Ammonium Bromide",
+        "fulldescription": "Tetra Butyl Ammonium Bromide is a quaternary ammonium compound used in various applications, including as a phase transfer catalyst and surfactant. It is effective in enhancing the solubility of organic compounds in aqueous solutions.",
+        "description": "Tetra Butyl Ammonium Bromide by DCI. Weight: 1.3 kg, Dimensions: 19 x 14 x 7 cm. Rated 3.2★ (16 reviews). Standard shipping: $7.95. Care: Store in a dry, cool place.",
+        "category": "DCI_QUAT",
+        "price": {
+          "current": 46.81,
+          "original": 112.4
+        },
+        "rating": {
+          "stars": 3.2,
+          "reviews_count": 16
+        },
+        "colors": [
+          "White"
+        ],
+        "quantity": 1,
+        "image": "/products/qac/ttabc.jpg",
+        "details": {
+          "weight": "1.3 kg",
+          "dimensions": "19 x 14 x 7 cm",
+          "color_options": [
+            "White"
+          ],
+          "sizes": [
+            "Standard"
+          ],
+          "model": "DCI-TE007",
+          "shipping": "Standard shipping: $7.95",
+          "care_info": "Store in a dry, cool place",
+          "brand": "DCI"
+        }
+      },
+      {
+        "id": 8,
+        "title": "Benzethonium Chloride",
+        "fulldescription": "Benzethonium Chloride is a quaternary ammonium compound known for its antimicrobial properties. It is commonly used in personal care products and disinfectants for its effectiveness against bacteria and viruses.",
+        "description": "Benzethonium Chloride by DCI. Weight: 4.7 kg, Dimensions: 14 x 12 x 6 cm. Rated 3.5★ (37 reviews). Standard shipping: $7.95. Care: Store in a dry, cool place.",
+        "category": "DCI_QUAT",
+        "price": {
+          "current": 35.87,
+          "original": 115.55
+        },
+        "rating": {
+          "stars": 3.5,
+          "reviews_count": 37
+        },
+        "colors": [
+          "White"
+        ],
+        "quantity": 1,
+        "image": "/products/qac/bntcl.png",
+        "details": {
+          "weight": "4.7 kg",
+          "dimensions": "14 x 12 x 6 cm",
+          "color_options": [
+            "White"
+          ],
+          "sizes": [
+            "Standard"
+          ],
+          "model": "DCI-BE008",
+          "shipping": "Standard shipping: $7.95",
+          "care_info": "Store in a dry, cool place",
+          "brand": "DCI"
+        }
+      },
+      {
+        "id": 9,
+        "title": "Coco Amido Propyl Betaine (CAPB)",
+        "fulldescription": "Coco Amido Propyl Betaine (CAPB) is a surfactant derived from coconut oil, known for its mildness and conditioning properties. It is commonly used in personal care products to enhance foaming and improve skin feel.",
+        "description": "Coco Amido Propyl Betaine (CAPB) by DCI. Weight: 1.6 kg, Dimensions: 16 x 8 x 5 cm. Rated 5.0★ (19 reviews). Standard shipping: $7.95. Care: Store in a dry, cool place.",
+        "category": "DCI_QUAT",
+        "price": {
+          "current": 49.49,
+          "original": 96.82
+        },
+        "rating": {
+          "stars": 5,
+          "reviews_count": 19
+        },
+        "colors": [
+          "White"
+        ],
+        "quantity": 1,
+        "image": "/products/qac/capb.png",
+        "details": {
+          "weight": "1.6 kg",
+          "dimensions": "16 x 8 x 5 cm",
+          "color_options": [
+            "White"
+          ],
+          "sizes": [
+            "Standard"
+          ],
+          "model": "DCI-CO009",
+          "shipping": "Standard shipping: $7.95",
+          "care_info": "Store in a dry, cool place",
+          "brand": "DCI"
+        }
+      },
+      {
+        "id": 10,
+        "title": "Coco Diethanolamide (CDEA)",
+        "fulldescription": "Coco Diethanolamide (CDEA) is a surfactant derived from coconut oil, used primarily as a foam booster and thickener in personal care products. It enhances the texture and stability of formulations.",
+        "description": "Coco Diethanolamide (CDEA) by DCI. Weight: 1.3 kg, Dimensions: 13 x 9 x 7 cm. Rated 4.5★ (33 reviews). Standard shipping: $7.95. Care: Store in a dry, cool place.",
+        "category": "DCI_QUAT",
+        "price": {
+          "current": 67.51,
+          "original": 98.34
+        },
+        "rating": {
+          "stars": 4.5,
+          "reviews_count": 33
+        },
+        "colors": [
+          "White"
+        ],
+        "quantity": 1,
+        "image": "/products/qac/cdea.jpg",
+        "details": {
+          "weight": "1.3 kg",
+          "dimensions": "13 x 9 x 7 cm",
+          "color_options": [
+            "White"
+          ],
+          "sizes": [
+            "Standard"
+          ],
+          "model": "DCI-CO010",
+          "shipping": "Standard shipping: $7.95",
+          "care_info": "Store in a dry, cool place",
+          "brand": "DCI"
+        }
+      },
+      {
+        "id": 11,
+        "title": "Acid Thickener",
+        "fulldescription": "Acid Thickener is a thickening agent used in various formulations to enhance viscosity and stability. It is commonly used in cleaning products and personal care formulations.",
+        "description": "Acid Thickener by DCI. Weight: 3.1 kg, Dimensions: 10 x 12 x 5 cm. Rated 3.1★ (28 reviews). Standard shipping: $7.95. Care: Store in a dry, cool place.",
+        "category": "DCI_QUAT",
+        "price": {
+          "current": 67.65,
+          "original": 101.54
+        },
+        "rating": {
+          "stars": 3.1,
+          "reviews_count": 28
+        },
+        "colors": [
+          "White"
+        ],
+        "quantity": 1,
+        "image": "/products/qac/at.jpg",
+        "details": {
+          "weight": "3.1 kg",
+          "dimensions": "10 x 12 x 5 cm",
+          "color_options": [
+            "White"
+          ],
+          "sizes": [
+            "Standard"
+          ],
+          "model": "DCI-AC011",
+          "shipping": "Standard shipping: $7.95",
+          "care_info": "Store in a dry, cool place",
+          "brand": "DCI"
+        }
+      },
+      {
+        "id": 12,
+        "title": "Sorbitol 70%",
+        "fulldescription": "Sorbitol 70% is a sugar alcohol used as a sweetener and humectant in various food and personal care products. It helps retain moisture and improve texture.",
+        "description": "Sorbitol 70% by DCI. Weight: 0.7 kg, Dimensions: 14 x 13 x 3 cm. Rated 3.1★ (12 reviews). Standard shipping: $7.95. Care: Store in a dry, cool place.",
+        "category": "DCI_QUAT",
+        "price": {
+          "current": 65.97,
+          "original": 81.45
+        },
+        "rating": {
+          "stars": 3.1,
+          "reviews_count": 12
+        },
+        "colors": [
+          "White"
+        ],
+        "quantity": 1,
+        "image": "/products/qac/s70.jpg",
+        "details": {
+          "weight": "0.7 kg",
+          "dimensions": "14 x 13 x 3 cm",
+          "color_options": [
+            "White"
+          ],
+          "sizes": [
+            "Standard"
+          ],
+          "model": "DCI-SO012",
+          "shipping": "Standard shipping: $7.95",
+          "care_info": "Store in a dry, cool place",
+          "brand": "DCI"
+        }
+      },
+      {
+        "id": 13,
+        "title": "Pine Oil (32%&42%&52%)",
+        "fulldescription": "Pine Oil is an essential oil derived from pine trees, known for its refreshing scent and antimicrobial properties. It is commonly used in cleaning products and personal care formulations.",
+        "description": "Pine Oil (32%&42%&52%) by DCI. Weight: 2.4 kg, Dimensions: 18 x 10 x 7 cm. Rated 4.7★ (26 reviews). Standard shipping: $7.95. Care: Store in a dry, cool place.",
+        "category": "DCI_QUAT",
+        "price": {
+          "current": 25.21,
+          "original": 111.19
+        },
+        "rating": {
+          "stars": 4.7,
+          "reviews_count": 26
+        },
+        "colors": [
+          "White"
+        ],
+        "quantity": 1,
+        "image": "/products/qac/po.jpg",
+        "details": {
+          "weight": "2.4 kg",
+          "dimensions": "18 x 10 x 7 cm",
+          "color_options": [
+            "White"
+          ],
+          "sizes": [
+            "Standard"
+          ],
+          "model": "DCI-PI013",
+          "shipping": "Standard shipping: $7.95",
+          "care_info": "Store in a dry, cool place",
+          "brand": "DCI"
+        }
+      },
+      {
+        "id": 14,
+        "title": "Cetyl Trimethyl Ammonium Bromide",
+        "fulldescription": "Cetyl Trimethyl Ammonium Bromide is a quaternary ammonium compound used as a surfactant and emulsifier in various applications. It is effective in personal care products, providing conditioning properties and enhancing product stability.",
+        "description": "Cetyl Trimethyl Ammonium Bromide by DCI. Weight: 4.0 kg, Dimensions: 17 x 5 x 4 cm. Rated 3.3★ (8 reviews). Standard shipping: $7.95. Care: Store in a dry, cool place.",
+        "category": "DCI_QUAT",
+        "price": {
+          "current": 46.2,
+          "original": 109.25
+        },
+        "rating": {
+          "stars": 3.3,
+          "reviews_count": 8
+        },
+        "colors": [
+          "White"
+        ],
+        "quantity": 1,
+        "image": "/products/qac/ctabr.jpg",
+        "details": {
+          "weight": "4.0 kg",
+          "dimensions": "17 x 5 x 4 cm",
+          "color_options": [
+            "White"
+          ],
+          "sizes": [
+            "Standard"
+          ],
+          "model": "DCI-CE014",
+          "shipping": "Standard shipping: $7.95",
+          "care_info": "Store in a dry, cool place",
+          "brand": "DCI"
+        }
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "category": "DCI_Nitrocompound",
+    "routing_category": "nitrocompound",
+    "category_img": "/products/cat/cat2.jpg",
+    "products": [
+      {
+        "id": 1,
+        "title": "Sodium Salt of para Nitrophenol",
+        "fulldescription": "Sodium Salt of para Nitrophenol is a chemical compound used in various applications, including as a reagent in organic synthesis and as a dye intermediate. It is known for its effectiveness in analytical chemistry and is used in the production of pharmaceuticals and agrochemicals.",
+        "description": "Sodium Salt of para Nitrophenol by DCI. Weight: 3.4 kg, Dimensions: 14 x 8 x 10 cm. Rated 5.0★ (12 reviews). Standard shipping: $7.95. Care: Store in a dry, cool place.",
+        "category": "DCI_Nitrocompound",
+        "price": {
+          "current": 56.79,
+          "original": 91.45
+        },
+        "rating": {
+          "stars": 5,
+          "reviews_count": 12
+        },
+        "colors": [
+          "White"
+        ],
+        "quantity": 1,
+        "image": "/products/nit/sspn.jpg",
+        "details": {
+          "weight": "3.4 kg",
+          "dimensions": "14 x 8 x 10 cm",
+          "color_options": [
+            "White"
+          ],
+          "sizes": [
+            "Standard"
+          ],
+          "model": "DCI-SO001",
+          "shipping": "Standard shipping: $7.95",
+          "care_info": "Store in a dry, cool place",
+          "brand": "DCI"
+        }
+      },
+      {
+        "id": 2,
+        "title": "4 Nitrophenol (PNP)",
+        "fulldescription": "4 Nitrophenol (PNP) is an aromatic compound used in the synthesis of various chemicals and as a reagent in laboratories. It is commonly used in the production of dyes, pharmaceuticals, and as an intermediate in organic synthesis.",
+        "description": "4 Nitrophenol (PNP) by DCI. Weight: 4.6 kg, Dimensions: 14 x 9 x 10 cm. Rated 3.3★ (5 reviews). Standard shipping: $7.95. Care: Store in a dry, cool place.",
+        "category": "DCI_Nitrocompound",
+        "price": {
+          "current": 79.97,
+          "original": 92.11
+        },
+        "rating": {
+          "stars": 3.3,
+          "reviews_count": 5
+        },
+        "colors": [
+          "White"
+        ],
+        "quantity": 1,
+        "image": "/products/nit/4pnp.jpg",
+        "details": {
+          "weight": "4.6 kg",
+          "dimensions": "14 x 9 x 10 cm",
+          "color_options": [
+            "White"
+          ],
+          "sizes": [
+            "Standard"
+          ],
+          "model": "DCI-4 002",
+          "shipping": "Standard shipping: $7.95",
+          "care_info": "Store in a dry, cool place",
+          "brand": "DCI"
+        }
+      },
+      {
+        "id": 3,
+        "title": "2 Nitrophenol (ONP)",
+        "fulldescription": "2 Nitrophenol (ONP) is an aromatic compound used in various chemical applications, including as a reagent in organic synthesis and in the production of dyes and pharmaceuticals. It is known for its role in analytical chemistry and as an intermediate in chemical synthesis.",
+        "description": "2 Nitrophenol (ONP) by DCI. Weight: 3.8 kg, Dimensions: 12 x 6 x 10 cm. Rated 3.3★ (47 reviews). Standard shipping: $7.95. Care: Store in a dry, cool place.",
+        "category": "DCI_Nitrocompound",
+        "price": {
+          "current": 28.13,
+          "original": 113.71
+        },
+        "rating": {
+          "stars": 3.3,
+          "reviews_count": 47
+        },
+        "colors": [
+          "White"
+        ],
+        "quantity": 1,
+        "image": "/products/nit/2onp.jpg",
+        "details": {
+          "weight": "3.8 kg",
+          "dimensions": "12 x 6 x 10 cm",
+          "color_options": [
+            "White"
+          ],
+          "sizes": [
+            "Standard"
+          ],
+          "model": "DCI-2 003",
+          "shipping": "Standard shipping: $7.95",
+          "care_info": "Store in a dry, cool place",
+          "brand": "DCI"
+        }
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "category": "DCI_Stearate",
+    "routing_category": "stearate",
+    "category_img": "/products/cat/cat3.jpg",
+    "products": [
+      {
+        "id": 1,
+        "title": "Calcium Stearate",
+        "fulldescription": "Calcium Stearate is a calcium salt of stearic acid, commonly used as a lubricant and release agent in various applications. It is widely used in the production of plastics, rubber, and cosmetics, providing excellent stability and performance.",
+        "description": "Calcium Stearate by DCI. Weight: 3.6 kg, Dimensions: 17 x 6 x 10 cm. Rated 4.0★ (18 reviews). Standard shipping: $7.95. Care: Store in a dry, cool place.",
+        "category": "DCI_Stearate",
+        "price": {
+          "current": 33.59,
+          "original": 88.39
+        },
+        "rating": {
+          "stars": 4,
+          "reviews_count": 18
+        },
+        "colors": [
+          "White"
+        ],
+        "quantity": 1,
+        "image": "/products/str/cstr.jpg",
+        "details": {
+          "weight": "3.6 kg",
+          "dimensions": "17 x 6 x 10 cm",
+          "color_options": [
+            "White"
+          ],
+          "sizes": [
+            "Standard"
+          ],
+          "model": "DCI-CA001",
+          "shipping": "Standard shipping: $7.95",
+          "care_info": "Store in a dry, cool place",
+          "brand": "DCI"
+        }
+      },
+      {
+        "id": 2,
+        "title": "Sodium Stearate",
+        "fulldescription": "Sodium Stearate is a sodium salt of stearic acid, commonly used as a surfactant and emulsifier in personal care products. It is effective in stabilizing emulsions and enhancing the texture of formulations.",
+        "description": "Sodium Stearate by DCI. Weight: 1.4 kg, Dimensions: 13 x 6 x 5 cm. Rated 4.4★ (17 reviews). Standard shipping: $7.95. Care: Store in a dry, cool place.",
+        "category": "DCI_Stearate",
+        "price": {
+          "current": 36.01,
+          "original": 84.43
+        },
+        "rating": {
+          "stars": 4.4,
+          "reviews_count": 17
+        },
+        "colors": [
+          "White"
+        ],
+        "quantity": 1,
+        "image": "/products/str/sst.jpg",
+        "details": {
+          "weight": "1.4 kg",
+          "dimensions": "13 x 6 x 5 cm",
+          "color_options": [
+            "White"
+          ],
+          "sizes": [
+            "Standard"
+          ],
+          "model": "DCI-SO002",
+          "shipping": "Standard shipping: $7.95",
+          "care_info": "Store in a dry, cool place",
+          "brand": "DCI"
+        }
+      },
+      {
+        "id": 3,
+        "title": "Zinc Stearate",
+        "fulldescription": "Zinc Stearate is a zinc salt of stearic acid, used as a lubricant and release agent in various applications. It is commonly used in plastics, rubber, and cosmetics, providing excellent stability and performance.",
+        "description": "Zinc Stearate by DCI. Weight: 4.0 kg, Dimensions: 12 x 11 x 10 cm. Rated 4.8★ (19 reviews). Standard shipping: $7.95. Care: Store in a dry, cool place.",
+        "category": "DCI_Stearate",
+        "price": {
+          "current": 51.22,
+          "original": 87.81
+        },
+        "rating": {
+          "stars": 4.8,
+          "reviews_count": 19
+        },
+        "colors": [
+          "White"
+        ],
+        "quantity": 1,
+        "image": "/products/str/zstr.jpg",
+        "details": {
+          "weight": "4.0 kg",
+          "dimensions": "12 x 11 x 10 cm",
+          "color_options": [
+            "White"
+          ],
+          "sizes": [
+            "Standard"
+          ],
+          "model": "DCI-ZI003",
+          "shipping": "Standard shipping: $7.95",
+          "care_info": "Store in a dry, cool place",
+          "brand": "DCI"
+        }
+      },
+      {
+        "id": 4,
+        "title": "Magnesium Stearate",
+        "fulldescription": "Magnesium Stearate is a magnesium salt of stearic acid, commonly used as a lubricant and anti-caking agent in pharmaceuticals and dietary supplements. It enhances the flow properties of powders and improves the stability of formulations.",
+        "description": "Magnesium Stearate by DCI. Weight: 1.3 kg, Dimensions: 12 x 14 x 7 cm. Rated 4.2★ (23 reviews). Standard shipping: $7.95. Care: Store in a dry, cool place.",
+        "category": "DCI_Stearate",
+        "price": {
+          "current": 21.47,
+          "original": 116.26
+        },
+        "rating": {
+          "stars": 4.2,
+          "reviews_count": 23
+        },
+        "colors": [
+          "White"
+        ],
+        "quantity": 1,
+        "image": "/products/str/mstr.jpg",
+        "details": {
+          "weight": "1.3 kg",
+          "dimensions": "12 x 14 x 7 cm",
+          "color_options": [
+            "White"
+          ],
+          "sizes": [
+            "Standard"
+          ],
+          "model": "DCI-MA004",
+          "shipping": "Standard shipping: $7.95",
+          "care_info": "Store in a dry, cool place",
+          "brand": "DCI"
+        }
+      },
+      {
+        "id": 5,
+        "title": "Barium Stearate",
+        "fulldescription": "Barium Stearate is a barium salt of stearic acid, used as a lubricant and stabilizer in various applications. It is commonly used in plastics and rubber formulations to enhance performance and stability.",
+        "description": "Barium Stearate by DCI. Weight: 0.8 kg, Dimensions: 13 x 14 x 6 cm. Rated 5.0★ (28 reviews). Standard shipping: $7.95. Care: Store in a dry, cool place.",
+        "category": "DCI_Stearate",
+        "price": {
+          "current": 46.97,
+          "original": 108.19
+        },
+        "rating": {
+          "stars": 5,
+          "reviews_count": 28
+        },
+        "colors": [
+          "White"
+        ],
+        "quantity": 1,
+        "image": "/products/str/bstr.jpg",
+        "details": {
+          "weight": "0.8 kg",
+          "dimensions": "13 x 14 x 6 cm",
+          "color_options": [
+            "White"
+          ],
+          "sizes": [
+            "Standard"
+          ],
+          "model": "DCI-BA005",
+          "shipping": "Standard shipping: $7.95",
+          "care_info": "Store in a dry, cool place",
+          "brand": "DCI"
+        }
+      },
+      {
+        "id": 6,
+        "title": "Aluminium Stearate",
+        "fulldescription": "Aluminium Stearate is an aluminium salt of stearic acid, used as a thickening agent and emulsifier in various applications. It is commonly used in cosmetics and pharmaceuticals to enhance product stability and texture.",
+        "description": "Aluminium Stearate by DCI. Weight: 3.1 kg, Dimensions: 14 x 5 x 4 cm. Rated 4.2★ (45 reviews). Standard shipping: $7.95. Care: Store in a dry, cool place.",
+        "category": "DCI_Stearate",
+        "price": {
+          "current": 51.74,
+          "original": 99.73
+        },
+        "rating": {
+          "stars": 4.2,
+          "reviews_count": 45
+        },
+        "colors": [
+          "White"
+        ],
+        "quantity": 1,
+        "image": "/products/str/almstr.jpg",
+        "details": {
+          "weight": "3.1 kg",
+          "dimensions": "14 x 5 x 4 cm",
+          "color_options": [
+            "White"
+          ],
+          "sizes": [
+            "Standard"
+          ],
+          "model": "DCI-AL006",
+          "shipping": "Standard shipping: $7.95",
+          "care_info": "Store in a dry, cool place",
+          "brand": "DCI"
+        }
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "category": "DCI_Solvents",
+    "routing_category": "solvents",
+    "category_img": "/products/cat/cat4.jpg",
+    "products": [
+      {
+        "id": 1,
+        "title": "Toluene",
+        "fulldescription": "Toluene is an aromatic hydrocarbon commonly used as an industrial solvent. It is effective in dissolving paints, coatings, and adhesives, and is also used in the production of various chemicals.",
+        "description": "Toluene by DCI. Weight: 0.8 kg, Dimensions: 10 x 7 x 5 cm. Rated 4.9★ (9 reviews). Standard shipping: $7.95. Care: Store in a dry, cool place.",
+        "category": "DCI_Solvents",
+        "price": {
+          "current": 20.15,
+          "original": 92.91
+        },
+        "rating": {
+          "stars": 4.9,
+          "reviews_count": 9
+        },
+        "colors": [
+          "White"
+        ],
+        "quantity": 1,
+        "image": "/products/sol/tol.jpeg",
+        "details": {
+          "weight": "0.8 kg",
+          "dimensions": "10 x 7 x 5 cm",
+          "color_options": [
+            "White"
+          ],
+          "sizes": [
+            "Standard"
+          ],
+          "model": "DCI-TO001",
+          "shipping": "Standard shipping: $7.95",
+          "care_info": "Store in a dry, cool place",
+          "brand": "DCI"
+        }
+      },
+      {
+        "id": 2,
+        "title": "N-Butanol",
+        "fulldescription": "N-Butanol is a colorless, flammable liquid used as a solvent and in the production of various chemicals. It is commonly used in coatings, adhesives, and personal care products.",
+        "description": "N-Butanol by DCI. Weight: 3.9 kg, Dimensions: 16 x 12 x 8 cm. Rated 3.6★ (41 reviews). Standard shipping: $7.95. Care: Store in a dry, cool place.",
+        "category": "DCI_Solvents",
+        "price": {
+          "current": 77.7,
+          "original": 101.28
+        },
+        "rating": {
+          "stars": 3.6,
+          "reviews_count": 41
+        },
+        "colors": [
+          "White"
+        ],
+        "quantity": 1,
+        "image": "/products/sol/nbtn.png",
+        "details": {
+          "weight": "3.9 kg",
+          "dimensions": "16 x 12 x 8 cm",
+          "color_options": [
+            "White"
+          ],
+          "sizes": [
+            "Standard"
+          ],
+          "model": "DCI-N-002",
+          "shipping": "Standard shipping: $7.95",
+          "care_info": "Store in a dry, cool place",
+          "brand": "DCI"
+        }
+      },
+      {
+        "id": 3,
+        "title": "Acetone",
+        "fulldescription": "Acetone is a colorless, volatile solvent widely used in the cosmetic and pharmaceutical industries. It is effective in removing nail polish and is also used as a solvent for various chemical reactions.",
+        "description": "Acetone by DCI. Weight: 3.7 kg, Dimensions: 12 x 14 x 3 cm. Rated 3.5★ (44 reviews). Standard shipping: $7.95. Care: Store in a dry, cool place.",
+        "category": "DCI_Solvents",
+        "price": {
+          "current": 69.79,
+          "original": 114.89
+        },
+        "rating": {
+          "stars": 3.5,
+          "reviews_count": 44
+        },
+        "colors": [
+          "White"
+        ],
+        "quantity": 1,
+        "image": "/products/sol/acs.png",
+        "details": {
+          "weight": "3.7 kg",
+          "dimensions": "12 x 14 x 3 cm",
+          "color_options": [
+            "White"
+          ],
+          "sizes": [
+            "Standard"
+          ],
+          "model": "DCI-AC003",
+          "shipping": "Standard shipping: $7.95",
+          "care_info": "Store in a dry, cool place",
+          "brand": "DCI"
+        }
+      },
+      {
+        "id": 4,
+        "title": "Phenol",
+        "fulldescription": "Phenol is a colorless, volatile liquid used in the production of plastics, resins, and as a disinfectant. It is known for its antiseptic properties and is commonly used in healthcare and personal care products.",
+        "description": "Phenol by DCI. Weight: 3.6 kg, Dimensions: 20 x 12 x 7 cm. Rated 4.1★ (38 reviews). Standard shipping: $7.95. Care: Store in a dry, cool place.",
+        "category": "DCI_Solvents",
+        "price": {
+          "current": 74.9,
+          "original": 91.19
+        },
+        "rating": {
+          "stars": 4.1,
+          "reviews_count": 38
+        },
+        "colors": [
+          "White"
+        ],
+        "quantity": 1,
+        "image": "/products/sol/ph.png",
+        "details": {
+          "weight": "3.6 kg",
+          "dimensions": "20 x 12 x 7 cm",
+          "color_options": [
+            "White"
+          ],
+          "sizes": [
+            "Standard"
+          ],
+          "model": "DCI-PH004",
+          "shipping": "Standard shipping: $7.95",
+          "care_info": "Store in a dry, cool place",
+          "brand": "DCI"
+        }
+      },
+      {
+        "id": 5,
+        "title": "Benzene",
+        "fulldescription": "Benzene is a colorless, flammable liquid with a sweet odor, used primarily as an industrial solvent and in the production of various chemicals. It is important in the manufacture of plastics, resins, and synthetic fibers.",
+        "description": "Benzene by DCI. Weight: 0.6 kg, Dimensions: 12 x 10 x 5 cm. Rated 4.1★ (37 reviews). Standard shipping: $7.95. Care: Store in a dry, cool place.",
+        "category": "DCI_Solvents",
+        "price": {
+          "current": 79.06,
+          "original": 112.73
+        },
+        "rating": {
+          "stars": 4.1,
+          "reviews_count": 37
+        },
+        "colors": [
+          "White"
+        ],
+        "quantity": 1,
+        "image": "/products/sol/ben.jpg",
+        "details": {
+          "weight": "0.6 kg",
+          "dimensions": "12 x 10 x 5 cm",
+          "color_options": [
+            "White"
+          ],
+          "sizes": [
+            "Standard"
+          ],
+          "model": "DCI-BE005",
+          "shipping": "Standard shipping: $7.95",
+          "care_info": "Store in a dry, cool place",
+          "brand": "DCI"
+        }
+      },
+      {
+        "id": 6,
+        "title": "Iso Propyl Alcohol",
+        "fulldescription": "Iso Propyl Alcohol is a colorless, flammable liquid used as a solvent and disinfectant. It is commonly used in personal care products, cleaning agents, and as a rubbing alcohol.",
+        "description": "Iso Propyl Alcohol by DCI. Weight: 4.4 kg, Dimensions: 20 x 6 x 5 cm. Rated 4.9★ (26 reviews). Standard shipping: $7.95. Care: Store in a dry, cool place.",
+        "category": "DCI_Solvents",
+        "price": {
+          "current": 23.8,
+          "original": 95.93
+        },
+        "rating": {
+          "stars": 4.9,
+          "reviews_count": 26
+        },
+        "colors": [
+          "White"
+        ],
+        "quantity": 1,
+        "image": "/products/sol/isopa.png",
+        "details": {
+          "weight": "4.4 kg",
+          "dimensions": "20 x 6 x 5 cm",
+          "color_options": [
+            "White"
+          ],
+          "sizes": [
+            "Standard"
+          ],
+          "model": "DCI-IS006",
+          "shipping": "Standard shipping: $7.95",
+          "care_info": "Store in a dry, cool place",
+          "brand": "DCI"
+        }
+      },
+      {
+        "id": 7,
+        "title": "Chloroform",
+        "fulldescription": "Chloroform is a colorless, volatile liquid used as a solvent and in the production of various chemicals. It is known for its anesthetic properties and is used in laboratories and industrial applications.",
+        "description": "Chloroform by DCI. Weight: 2.1 kg, Dimensions: 17 x 11 x 7 cm. Rated 4.5★ (19 reviews). Standard shipping: $7.95. Care: Store in a dry, cool place.",
+        "category": "DCI_Solvents",
+        "price": {
+          "current": 30.96,
+          "original": 92.68
+        },
+        "rating": {
+          "stars": 4.5,
+          "reviews_count": 19
+        },
+        "colors": [
+          "White"
+        ],
+        "quantity": 1,
+        "image": "/products/sol/chlorf.jpg",
+        "details": {
+          "weight": "2.1 kg",
+          "dimensions": "17 x 11 x 7 cm",
+          "color_options": [
+            "White"
+          ],
+          "sizes": [
+            "Standard"
+          ],
+          "model": "DCI-CH007",
+          "shipping": "Standard shipping: $7.95",
+          "care_info": "Store in a dry, cool place",
+          "brand": "DCI"
+        }
+      },
+      {
+        "id": 8,
+        "title": "Thf",
+        "fulldescription": "THF (Tetrahydrofuran) is a colorless, volatile liquid used as a solvent in various chemical reactions and processes. It is commonly used in the production of polymers and as a solvent for resins and coatings.",
+        "description": "Thf by DCI. Weight: 1.5 kg, Dimensions: 16 x 6 x 8 cm. Rated 4.4★ (39 reviews). Standard shipping: $7.95. Care: Store in a dry, cool place.",
+        "category": "DCI_Solvents",
+        "price": {
+          "current": 49.89,
+          "original": 102.97
+        },
+        "rating": {
+          "stars": 4.4,
+          "reviews_count": 39
+        },
+        "colors": [
+          "White"
+        ],
+        "quantity": 1,
+        "image": "/products/sol/thf.png",
+        "details": {
+          "weight": "1.5 kg",
+          "dimensions": "16 x 6 x 8 cm",
+          "color_options": [
+            "White"
+          ],
+          "sizes": [
+            "Standard"
+          ],
+          "model": "DCI-TH008",
+          "shipping": "Standard shipping: $7.95",
+          "care_info": "Store in a dry, cool place",
+          "brand": "DCI"
+        }
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "category": "Cleaning_Essentials",
+    "routing_category": "cleaning_essentials",
+    "category_img": "/products/cat/cat5.jpg",
+    "products": [
+      {
+        "id": 1,
+        "title": "Harpic Toilet Cleaner",
+        "fulldescription": "Harpic Toilet Cleaner is specially formulated to clean and disinfect your toilet bowl, leaving it sparkling clean and fresh. Its powerful formula removes tough stains and kills 99.9% of germs, ensuring a hygienic toilet environment.",
+        "description": "Harpic Toilet Cleaner by Harpic. Weight: , Dimensions: . Rated None★ (None reviews). . Care: .",
+        "category": "Cleaning_Essentials",
+        "price": {
+          "current": 129,
+          "original": null
+        },
+        "rating": {
+          "stars": null,
+          "reviews_count": null
+        },
+        "colors": [],
+        "quantity": 1,
+        "image": "/products/cle/htc.jpg",
+        "details": {
+          "variant": "1L",
+          "brand": "Harpic"
+        }
+      },
+      {
+        "id": 2,
+        "title": "Colin Glass Cleaner",
+        "fulldescription": "Colin Glass Cleaner provides a streak-free shine to all glass surfaces. Its fast-acting formula cuts through dirt and grime, making it ideal for windows, mirrors, and other glass surfaces. Enjoy crystal-clear visibility with every use.",
+        "description": "Colin Glass Cleaner by Colin. Weight: , Dimensions: . Rated None★ (None reviews). . Care: .",
+        "category": "Cleaning_Essentials",
+        "price": {
+          "current": 85,
+          "original": null
+        },
+        "rating": {
+          "stars": null,
+          "reviews_count": null
+        },
+        "colors": [],
+        "quantity": 1,
+        "image": "/products/cle/glc.png",
+        "details": {
+          "variant": "500ml",
+          "brand": "Colin"
+        }
+      },
+      {
+        "id": 3,
+        "title": "Lizol Floor Cleaner Citrus",
+        "fulldescription": "Lizol Floor Cleaner Citrus is designed to effectively clean and disinfect floors while leaving a refreshing citrus fragrance. Its powerful formula eliminates tough stains and germs, making it perfect for both home and office use.",
+        "description": "Lizol Floor Cleaner Citrus by Lizol. Weight: , Dimensions: . Rated None★ (None reviews). . Care: .",
+        "category": "Cleaning_Essentials",
+        "price": {
+          "current": 179,
+          "original": null
+        },
+        "rating": {
+          "stars": null,
+          "reviews_count": null
+        },
+        "colors": [],
+        "quantity": 1,
+        "image": "/products/cle/lfcl.png",
+        "details": {
+          "variant": "975ml",
+          "brand": "Lizol"
+        }
+      },
+      {
+        "id": 4,
+        "title": "Vim Dishwash Liquid",
+        "fulldescription": "Vim Dishwash Liquid is tough on grease and gentle on hands. Its concentrated formula ensures effective cleaning of dishes, pots, and pans, leaving them sparkling clean and free from residues. Enjoy a pleasant washing experience with its refreshing scent.",
+        "description": "Vim Dishwash Liquid by Vim. Weight: , Dimensions: . Rated None★ (None reviews). . Care: .",
+        "category": "Cleaning_Essentials",
+        "price": {
+          "current": 99,
+          "original": null
+        },
+        "rating": {
+          "stars": null,
+          "reviews_count": null
+        },
+        "colors": [],
+        "quantity": 1,
+        "image": "/products/cle/vdl.jpg",
+        "details": {
+          "variant": "500ml",
+          "brand": "Vim"
+        }
+      },
+      {
+        "id": 5,
+        "title": "Dettol Antiseptic Liquid",
+        "fulldescription": "Dettol Antiseptic Liquid is a trusted antiseptic solution that helps protect against germs and infections. It can be used for cleaning wounds, disinfecting surfaces, and personal hygiene. Its versatile formula makes it a must-have in every household.",
+        "description": "Dettol Antiseptic Liquid by Dettol. Weight: , Dimensions: . Rated None★ (None reviews). . Care: .",
+        "category": "Cleaning_Essentials",
+        "price": {
+          "current": 199,
+          "original": null
+        },
+        "rating": {
+          "stars": null,
+          "reviews_count": null
+        },
+        "colors": [],
+        "quantity": 1,
+        "image": "/products/cle/dal.jpg",
+        "details": {
+          "variant": "500ml",
+          "brand": "Dettol"
+        }
+      },
+      {
+        "id": 6,
+        "title": "Pril Dishwash Liquid",
+        "fulldescription": "Pril Dishwash Liquid is a powerful grease remover that helps to clean dishes effectively and quickly. Its concentrated formula ensures thorough cleaning with minimal effort, leaving dishes shiny and hygienically clean. Safe for everyday use.",
+        "description": "Pril Dishwash Liquid by Pril. Weight: , Dimensions: . Rated None★ (None reviews). . Care: .",
+        "category": "Cleaning_Essentials",
+        "price": {
+          "current": 75,
+          "original": null
+        },
+        "rating": {
+          "stars": null,
+          "reviews_count": null
+        },
+        "colors": [],
+        "quantity": 1,
+        "image": "/products/cle/pdl.jpg",
+        "details": {
+          "variant": "425ml",
+          "brand": "Pril"
+        }
+      }
+    ]
+  }
+]
