@@ -86,7 +86,7 @@ const transporter = nodemailer.createTransport({
 
 
 // For newsletter
-app.post('/newsletter', async (req, res) => {
+app.post('/api/newsletter', async (req, res) => {
   const { email } = req.body;
 
   try {
@@ -177,7 +177,7 @@ app.post('/newsletter', async (req, res) => {
 
 // For Contacts
 
-app.post('/contacts', async (req, res) => {
+app.post('/api/contacts', async (req, res) => {
   const { name, email, mobile, message } = req.body;
 
   try {
@@ -289,7 +289,7 @@ app.post('/contacts', async (req, res) => {
 
 // Contact-info to show in backend starts
 
-app.get("/contact-info", async (req, res) => {
+app.get("/api/contact-info", async (req, res) => {
   try {
     const contacts = await User.find();
     res.json({ success: true, data:contacts });
@@ -303,7 +303,7 @@ app.get("/contact-info", async (req, res) => {
 
 
 // Api link start
-app.get('/', (req, res) => {
+app.get('/api', (req, res) => {
   const filePath = path.join(__dirname, 'data.json');
   const { category, sort } = req.query;
 
@@ -380,7 +380,7 @@ app.get('/', (req, res) => {
   });
 });
 
-app.get('/product/:category/:name', (req, res) => {
+app.get('/api/product/:category/:name', (req, res) => {
   const filePath = path.join(__dirname, 'data.json');
   const category = req.params.category.toLowerCase();
   const productName = req.params.name.toLowerCase();
@@ -445,7 +445,7 @@ const storage = multer.diskStorage({
 
 const upload = multer({ storage: storage });
 
-app.post('/product-add', upload.single('image'), async (req, res) => {
+app.post('/api/product-add', upload.single('image'), async (req, res) => {
   const { categoryId } = req.body;
   const filePath = path.join(__dirname, 'data.json');
 
@@ -523,7 +523,7 @@ function safeParseObject(str) {
 
 
 // API route to delete a product
-app.post('/product-delete', async (req, res) => {
+app.post('/api/product-delete', async (req, res) => {
   const { categoryId, productId } = req.body;
   const filePath = path.join(__dirname, 'data.json');
 
