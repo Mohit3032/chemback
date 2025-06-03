@@ -303,7 +303,7 @@ app.get("/api/contact-info", async (req, res) => {
 
 
 // Api link start
-app.get('/api', (req, res) => {
+app.get('/', (req, res) => {
   const filePath = path.join(__dirname, 'data.json');
   const { category, sort } = req.query;
 
