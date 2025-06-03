@@ -86,7 +86,7 @@ const transporter = nodemailer.createTransport({
 
 
 // For newsletter
-app.post('/newsletter', async (req, res) => {
+app.post('/api/newsletter', async (req, res) => {
   const { email } = req.body;
 
   try {
@@ -177,7 +177,7 @@ app.post('/newsletter', async (req, res) => {
 
 // For Contacts
 
-app.post('/contacts', async (req, res) => {
+app.post('/api/contacts', async (req, res) => {
   const { name, email, mobile, message } = req.body;
 
   try {
@@ -289,7 +289,7 @@ app.post('/contacts', async (req, res) => {
 
 // Contact-info to show in backend starts
 
-app.get("/contact-info", async (req, res) => {
+app.get("/api/contact-info", async (req, res) => {
   try {
     const contacts = await User.find();
     res.json({ success: true, data:contacts });
