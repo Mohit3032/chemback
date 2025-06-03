@@ -1,8 +1,6 @@
 const express = require('express');
 const multer = require('multer');
 const app = express();
-const serverless = require('serverless-http');
-
 const cors = require('cors');
 const path = require('path');
 const fs = require('fs');
@@ -11,7 +9,7 @@ const mongoose = require('mongoose');
 
 const nodemailer = require('nodemailer');
 require('dotenv').config();
-module.exports = serverless(app);
+
 app.use(cors());
 app.use(bodyParser.json());
 app.use(express.json()); // To parse JSON bodies
@@ -568,5 +566,6 @@ app.post('/api/product-delete', async (req, res) => {
 // Api link over
 
 // Local server
-console.log('✅ Server connected');
-module.exports = app;
+app.listen(3032, () => {
+  console.log('Server connected');
+});
