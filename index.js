@@ -10,7 +10,11 @@ const mongoose = require('mongoose');
 const nodemailer = require('nodemailer');
 require('dotenv').config();
 
-app.use(cors());
+app.use(cors({
+  origin: 'https://divyachemicalindustry.com',
+  methods: ['GET', 'POST', 'PUT', 'DELETE'],
+  credentials: true
+}));
 app.use(bodyParser.json());
 app.use(express.json()); // To parse JSON bodies
 app.use("/products", express.static(path.join(__dirname, "Assets/products")));
