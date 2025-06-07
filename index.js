@@ -1,7 +1,6 @@
 const express = require('express');
 const multer = require('multer');
 const app = express();
-const cors = require('cors');
 const path = require('path');
 const fs = require('fs');
 const bodyParser = require('body-parser'); 
@@ -10,11 +9,12 @@ const mongoose = require('mongoose');
 const nodemailer = require('nodemailer');
 require('dotenv').config();
 
+const cors = require('cors');
 app.use(cors({
   origin: 'https://divyachemicalindustry.com',
-  methods: ['GET', 'POST', 'PUT', 'DELETE'],
-  credentials: true
+  credentials: true,
 }));
+
 app.use(bodyParser.json());
 app.use(express.json()); // To parse JSON bodies
 app.use("/products", express.static(path.join(__dirname, "Assets/products")));
