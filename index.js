@@ -1,5 +1,6 @@
 const express = require('express');
 const multer = require('multer');
+const cors = require("cors");
 const app = express();
 const path = require('path');
 const fs = require('fs');
@@ -9,7 +10,7 @@ const mongoose = require('mongoose');
 const nodemailer = require('nodemailer');
 require('dotenv').config();
 
-const cors = require("cors");
+
 
 const allowedOrigins = [
   "http://localhost:3000",               // for development
@@ -92,14 +93,17 @@ const User = mongoose.model("contacts", ContactSchema)
 
 
 
-// 🔹 Nodemailer Transporter
 const transporter = nodemailer.createTransport({
-    service: 'gmail',
-    auth: {
-        user: process.env.EMAIL_USER,
-        pass: process.env.EMAIL_PASS,
-    },
+  host: process.env.SMTP_HOST,
+  port: parseInt(process.env.SMTP_PORT),
+  secure: true, // Port 465 requires SSL
+  auth: {
+    user: process.env.EMAIL_USER,
+    pass: process.env.EMAIL_PASS,
+  },
 });
+
+
 
 
 
@@ -119,9 +123,11 @@ app.post('/api/newsletter', async (req, res) => {
     const result = await UserNews.create({ email });
     console.log('Newsletter subscriber saved:', result);
 
-    // Setup mail transporter
+    // Setup mail transporter using SMTP
     const transporter = nodemailer.createTransport({
-      service: 'gmail',
+      host: process.env.SMTP_HOST,
+      port: parseInt(process.env.SMTP_PORT),
+      secure: true, // true for port 465
       auth: {
         user: process.env.EMAIL_USER,
         pass: process.env.EMAIL_PASS,
@@ -167,7 +173,7 @@ app.post('/api/newsletter', async (req, res) => {
               <p style="margin: 0; font-size: 14px; color: #555;">
                 Website: <a href="https://divyachemicalindustry.com" style="color: #8c000a;">divyachemicalindustry.com</a>
               </p>
-              <p style="font-size: 14px; color: #555;">Email: <a href="mailto:info@divyachemicalindustry.com" style="color: #8c000a;">info@divyachemicalindustry.com</a></p>
+              <p style="font-size: 14px; color: #555;">Email: <a href="mailto:purchase@divyachemicalindustry.com" style="color: #8c000a;">purchase@divyachemicalindustry.com</a></p>
               <p style="font-size: 14px; color: #555;">Phone: +91 98765 43210</p>
             </div>
 
@@ -191,6 +197,7 @@ app.post('/api/newsletter', async (req, res) => {
 });
 
 
+
 //  newsletter Over
 
 
@@ -200,7 +207,7 @@ app.post('/api/contacts', async (req, res) => {
   const { name, email, mobile, message } = req.body;
 
   try {
-    // Check if the user with the given email and message already exists
+    // Check for duplicate message
     const user = await User.findOne({ email, message });
     if (user) {
       return res.json({ success: false, error: 'Message has already been sent' });
@@ -208,74 +215,74 @@ app.post('/api/contacts', async (req, res) => {
 
     // Save to DB
     const result = await User.create({ name, email, mobile, message });
-    console.log(result);
+    console.log('Contact saved:', result);
 
-    // Nodemailer setup
+    // Nodemailer Transporter
     const transporter = nodemailer.createTransport({
-      service: 'gmail',
+      host: process.env.SMTP_HOST,
+      port: parseInt(process.env.SMTP_PORT),
+      secure: true,
       auth: {
-        user: process.env.EMAIL_USER, // your Gmail
-        pass: process.env.EMAIL_PASS, // your app password
+        user: process.env.EMAIL_USER,
+        pass: process.env.EMAIL_PASS,
       },
     });
 
-    // 1. Email to user
+    // User Email with Image Attachment
     const userMailOptions = {
       from: `"Divya Chemical Industry" <${process.env.EMAIL_USER}>`,
       to: email,
-      replyTo: process.env.EMAIL_USER, 
+      replyTo: process.env.EMAIL_USER,
       subject: 'Welcome to Divya Chemical Industry',
       html: `
-      <div style="font-family: Arial, sans-serif; background-color: #f0f2f5; padding: 20px;">
-        <div style="max-width: 600px; margin: auto; background: #ffffff; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
-          
-          <!-- Header -->
-          <div style="background-color: #8c000a; color: #ffffff; padding: 20px; text-align: center;">
-            <h2 style="margin: 0;">Thank You for Contacting Divya Chemical Industry</h2>
-          </div>
-    
-          <!-- Body -->
-          <div style="padding: 30px;">
-            <p style="font-size: 16px; color: #333;">Dear <strong>${name}</strong>,</p>
-            <p style="font-size: 15px; color: #333;">
-              We truly appreciate your interest in <strong>Divya Chemical Industry</strong>. Your message has been received and our team will respond to you shortly.
-            </p>
-            <p style="font-size: 15px; color: #333;">
-              We specialize in delivering reliable, high-quality chemical solutions tailored for industrial, manufacturing, and laboratory applications.
-            </p>
-            <p style="margin-top: 20px; font-size: 15px; color: #333;">
-              <strong>Tip:</strong> To ensure our emails always land in your inbox, please add us to your contacts or mark this message as "Not Spam" if needed.
-            </p>
-            <p style="margin-top: 30px; font-size: 15px; color: #333;">Warm regards,</p>
-            <p style="font-size: 15px; color: #333;"><strong>The Divya Chemical Industry Team</strong></p>
-          </div>
-    
-          <!-- Business Info -->
-          <div style="background-color: #fbe6e7; padding: 20px; text-align: center;">
-            <img src="cid:businessCardImage" alt="Divya Chemical Industry Business Card" style="width: 100%; max-width: 500px; border-radius: 6px;" />
-            <p style="margin: 10px 0 0; font-size: 14px; color: #555;">
-              Email: <a href="mailto:info@divyachemicalindustry.com" style="color: #8c000a;">info@divyachemicalindustry.com</a>
-            </p>
-            <p style="font-size: 14px; color: #555;">Phone: +91 98765 43210</p>
-            <p style="font-size: 14px; color: #555;">Website: <a href="https://divyachemicalindustry.com" style="color: #8c000a;">divyachemicalindustry.com</a></p>
-          </div>
-    
-          <!-- Footer -->
-          <div style="background-color: #f1f1f1; color: #888; text-align: center; padding: 10px; font-size: 12px;">
-            <p style="margin: 0;">&copy; ${new Date().getFullYear()} Divya Chemical Industry. All rights reserved.</p>
+        <div style="font-family: Arial, sans-serif; background-color: #f0f2f5; padding: 20px;">
+          <div style="max-width: 600px; margin: auto; background: #ffffff; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+
+            <!-- Header -->
+            <div style="background-color: #8c000a; color: #ffffff; padding: 20px; text-align: center;">
+              <h2 style="margin: 0;">Thank You for Contacting Divya Chemical Industry</h2>
+            </div>
+
+            <!-- Body -->
+            <div style="padding: 30px;">
+              <p style="font-size: 16px; color: #333;">Dear <strong>${name}</strong>,</p>
+              <p style="font-size: 15px; color: #333;">
+                We truly appreciate your interest in <strong>Divya Chemical Industry</strong>. Your message has been received and our team will respond to you shortly.
+              </p>
+              <p style="font-size: 15px; color: #333;">
+                We specialize in delivering reliable, high-quality chemical solutions tailored for industrial, manufacturing, and laboratory applications.
+              </p>
+              <p style="margin-top: 20px; font-size: 15px; color: #333;">
+                <strong>Tip:</strong> Please add us to your contacts to ensure you receive future responses.
+              </p>
+              <p style="margin-top: 30px; font-size: 15px; color: #333;">Warm regards,</p>
+              <p style="font-size: 15px; color: #333;"><strong>The Divya Chemical Industry Team</strong></p>
+            </div>
+
+            <!-- Business Info -->
+            <div style="background-color: #fbe6e7; padding: 20px; text-align: center;">
+              <img src="cid:businessCardImage" alt="Business Card" style="width: 100%; max-width: 500px; border-radius: 6px;" />
+              <p style="margin: 10px 0 0; font-size: 14px; color: #555;">
+                Email: <a href="mailto:purchase@divyachemicalindustry.com" style="color: #8c000a;">purchase@divyachemicalindustry.com</a>
+              </p>
+              <p style="font-size: 14px; color: #555;">Phone: +91 98765 43210</p>
+              <p style="font-size: 14px; color: #555;">Website: <a href="https://divyachemicalindustry.com" style="color: #8c000a;">divyachemicalindustry.com</a></p>
+            </div>
+
+            <div style="background-color: #f1f1f1; color: #888; text-align: center; padding: 10px; font-size: 12px;">
+              <p style="margin: 0;">&copy; ${new Date().getFullYear()} Divya Chemical Industry. All rights reserved.</p>
+            </div>
           </div>
         </div>
-      </div>
-    `,
-    
+      `,
       attachments: [{
         filename: 'business-card.jpg',
         path: path.join(__dirname, 'Assets', 'business-card.jpg'),
-        cid: 'businessCardImage'
+        cid: 'businessCardImage',
       }]
     };
 
-    // 2. Email to you (admin)
+    // Admin Notification
     const adminMailOptions = {
       from: process.env.EMAIL_USER,
       to: process.env.EMAIL_USER,
@@ -290,7 +297,7 @@ app.post('/api/contacts', async (req, res) => {
       `
     };
 
-    // Send both emails
+    // Send Emails
     await transporter.sendMail(userMailOptions);
     await transporter.sendMail(adminMailOptions);
 
@@ -301,6 +308,7 @@ app.post('/api/contacts', async (req, res) => {
     res.json({ success: false, error: 'Contact cannot be submitted' });
   }
 });
+
 
 
 
