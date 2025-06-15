@@ -9,11 +9,26 @@ const mongoose = require('mongoose');
 const nodemailer = require('nodemailer');
 require('dotenv').config();
 
-const cors = require('cors');
-app.use(cors({
-  origin: 'https://divyachemicalindustry.com',
-  credentials: true,
-}));
+const cors = require("cors");
+
+const allowedOrigins = [
+  "http://localhost:3000",               // for development
+  "https://divyachemicalindustry.com"    // for production
+];
+
+app.use(
+  cors({
+    origin: function (origin, callback) {
+      if (!origin || allowedOrigins.includes(origin)) {
+        callback(null, true);
+      } else {
+        callback(new Error("Not allowed by CORS"));
+      }
+    },
+    credentials: true,
+  })
+);
+
 
 app.use(bodyParser.json());
 app.use(express.json()); // To parse JSON bodies
