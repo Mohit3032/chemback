@@ -218,15 +218,19 @@ app.post('/api/contacts', async (req, res) => {
     console.log('Contact saved:', result);
 
     // Nodemailer Transporter
-    const transporter = nodemailer.createTransport({
-      host: process.env.SMTP_HOST,
-      port: parseInt(process.env.SMTP_PORT),
-      secure: true,
-      auth: {
-        user: process.env.EMAIL_USER,
-        pass: process.env.EMAIL_PASS,
-      },
-    });
+const transporter = nodemailer.createTransport({
+  host: "smtp.hostinger.com",
+  port: 465,
+  secure: true, // Use true for port 465
+  auth: {
+    user: "purchase@divyachemicalindustry.com",
+    pass: "Devraj@4545", // Make sure this is correct and up to date
+  },
+  tls: {
+    rejectUnauthorized: false // Important for Hostinger SSL
+  }
+});
+
 
     // User Email with Image Attachment
     const userMailOptions = {
