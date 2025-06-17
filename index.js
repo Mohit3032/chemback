@@ -207,66 +207,54 @@ app.post('/api/contacts', async (req, res) => {
   const { name, email, mobile, message } = req.body;
 
   try {
-    // Check for duplicate message
-    const user = await User.findOne({ email, message });
-    if (user) {
+    // Prevent duplicate message
+    const existing = await User.findOne({ email, message });
+    if (existing) {
       return res.json({ success: false, error: 'Message has already been sent' });
     }
 
-    // Save to DB
-    const result = await User.create({ name, email, mobile, message });
-    console.log('Contact saved:', result);
+    // Save contact to DB
+    await User.create({ name, email, mobile, message });
 
-    // Nodemailer Transporter (Hostinger SMTP)
+    // Nodemailer setup
     const transporter = nodemailer.createTransport({
-      host: "smtp.hostinger.com",
-      port: 465,
+      host: process.env.SMTP_HOST,
+      port: parseInt(process.env.SMTP_PORT),
       secure: true,
       auth: {
-        user: "purchase@divyachemicalindustry.com",
-        pass: "Devraj@4545",
+        user: process.env.EMAIL_USER,
+        pass: process.env.EMAIL_PASS,
       },
       tls: {
         rejectUnauthorized: false,
-      },
+      }
     });
 
-    // User Mail
+    // Email to user
     const userMailOptions = {
-      from: '"Divya Chemical Industry" <purchase@divyachemicalindustry.com>',
+      from: `"Divya Chemical Industry" <${process.env.EMAIL_USER}>`,
       to: email,
-      replyTo: "purchase@divyachemicalindustry.com",
+      replyTo: process.env.EMAIL_USER,
       subject: 'Welcome to Divya Chemical Industry',
       html: `
         <div style="font-family: Arial, sans-serif; background-color: #f0f2f5; padding: 20px;">
-          <div style="max-width: 600px; margin: auto; background: #ffffff; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
-            <div style="background-color: #8c000a; color: #ffffff; padding: 20px; text-align: center;">
-              <h2 style="margin: 0;">Thank You for Contacting Divya Chemical Industry</h2>
+          <div style="max-width: 600px; margin: auto; background: #fff; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+            <div style="background: #8c000a; color: #fff; padding: 20px; text-align: center;">
+              <h2>Thank You for Contacting Divya Chemical Industry</h2>
             </div>
             <div style="padding: 30px;">
-              <p style="font-size: 16px; color: #333;">Dear <strong>${name}</strong>,</p>
-              <p style="font-size: 15px; color: #333;">
-                We truly appreciate your interest in <strong>Divya Chemical Industry</strong>. Your message has been received and our team will respond to you shortly.
-              </p>
-              <p style="font-size: 15px; color: #333;">
-                We specialize in delivering reliable, high-quality chemical solutions tailored for industrial, manufacturing, and laboratory applications.
-              </p>
-              <p style="margin-top: 20px; font-size: 15px; color: #333;">
-                <strong>Tip:</strong> Please add us to your contacts to ensure you receive future responses.
-              </p>
-              <p style="margin-top: 30px; font-size: 15px; color: #333;">Warm regards,</p>
-              <p style="font-size: 15px; color: #333;"><strong>The Divya Chemical Industry Team</strong></p>
+              <p>Dear <strong>${name}</strong>,</p>
+              <p>We appreciate your message and will respond shortly.</p>
+              <p>We deliver high-quality chemical solutions tailored to your needs.</p>
+              <p>Warm regards,<br><strong>Divya Chemical Industry Team</strong></p>
             </div>
-            <div style="background-color: #fbe6e7; padding: 20px; text-align: center;">
-              <img src="cid:businessCardImage" alt="Business Card" style="width: 100%; max-width: 500px; border-radius: 6px;" />
-              <p style="margin: 10px 0 0; font-size: 14px; color: #555;">
-                Email: <a href="mailto:purchase@divyachemicalindustry.com" style="color: #8c000a;">purchase@divyachemicalindustry.com</a>
-              </p>
-              <p style="font-size: 14px; color: #555;">Phone: +91 98765 43210</p>
-              <p style="font-size: 14px; color: #555;">Website: <a href="https://divyachemicalindustry.com" style="color: #8c000a;">divyachemicalindustry.com</a></p>
+            <div style="background: #fbe6e7; text-align: center; padding: 20px;">
+              <img src="cid:businessCardImage" style="width: 100%; max-width: 500px;" />
+              <p>Email: <a href="mailto:${process.env.EMAIL_USER}">${process.env.EMAIL_USER}</a></p>
+              <p>Website: <a href="https://divyachemicalindustry.com">divyachemicalindustry.com</a></p>
             </div>
-            <div style="background-color: #f1f1f1; color: #888; text-align: center; padding: 10px; font-size: 12px;">
-              <p style="margin: 0;">&copy; ${new Date().getFullYear()} Divya Chemical Industry. All rights reserved.</p>
+            <div style="background: #f1f1f1; color: #888; text-align: center; padding: 10px; font-size: 12px;">
+              <p>&copy; ${new Date().getFullYear()} Divya Chemical Industry</p>
             </div>
           </div>
         </div>
@@ -275,33 +263,33 @@ app.post('/api/contacts', async (req, res) => {
         filename: 'business-card.jpg',
         path: path.join(__dirname, 'Assets', 'business-card.jpg'),
         cid: 'businessCardImage',
-      }],
+      }]
     };
 
-    // Admin Notification
+    // Email to admin
     const adminMailOptions = {
-      from: '"Divya Chemical Industry" <purchase@divyachemicalindustry.com>',
-      to: "purchase@divyachemicalindustry.com",
+      from: `"Divya Chemical Industry" <${process.env.EMAIL_USER}>`,
+      to: process.env.EMAIL_USER,
       subject: 'New Contact Form Submission',
       html: `
-        <h2>New Contact Request</h2>
+        <h2>New Contact Submission</h2>
         <p><strong>Name:</strong> ${name}</p>
         <p><strong>Email:</strong> ${email}</p>
         <p><strong>Mobile:</strong> ${mobile}</p>
-        <p><strong>Message:</strong><br>${message}</p>
-        <p><em>Submitted at: ${new Date().toLocaleString()}</em></p>
-      `,
+        <p><strong>Message:</strong> ${message}</p>
+        <p><em>Received on: ${new Date().toLocaleString()}</em></p>
+      `
     };
 
-    // Send emails
+    // Send both emails
     await transporter.sendMail(userMailOptions);
     await transporter.sendMail(adminMailOptions);
 
     res.json({ success: true, message: 'Thanks For Contacting Us' });
 
-  } catch (error) {
-    console.error("❌ Error in /api/contacts:", error);
-    res.status(500).json({ success: false, error: 'Contact cannot be submitted' });
+  } catch (err) {
+    console.error('❌ /api/contacts error:', err);
+    res.status(500).json({ success: false, error: 'Something went wrong. Please try again later.' });
   }
 });
 
