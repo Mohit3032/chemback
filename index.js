@@ -347,7 +347,6 @@ app.get('/api', (req, res) => {
       parsedData.forEach(categoryData => {
         if (!category || category === categoryData.routing_category) {
           const categoryProducts = categoryData.products.map(product => {
-            // Ensure colors and other arrays are correctly parsed if they are strings
             const parseJsonArray = (field) => {
               try {
                 return Array.isArray(field) ? field : JSON.parse(field || "[]");
@@ -356,9 +355,16 @@ app.get('/api', (req, res) => {
               }
             };
 
+            // Use existing image path if it starts with "/products/"
+            let imagePath = product.image || "";
+            if (!imagePath.startsWith("/products/")) {
+              imagePath = "/products/" + imagePath.replace(/^\/?/, '');
+            }
+
             return {
               ...product,
-              routing_category: categoryData.routing_category, // Add category to each product
+              routing_category: categoryData.routing_category,
+              image: `${req.protocol}://${req.get('host')}${imagePath}`,
               colors: parseJsonArray(product.colors),
               details: {
                 ...product.details,
@@ -367,11 +373,12 @@ app.get('/api', (req, res) => {
               },
             };
           });
+
           jsonData = jsonData.concat(categoryProducts);
         }
       });
 
-      // Optional sorting
+      // Sort logic
       if (sort) {
         switch (sort) {
           case 'price-low-high':
@@ -386,18 +393,10 @@ app.get('/api', (req, res) => {
         }
       }
 
-      // Update image URLs with full host path
-      const updatedData = jsonData.map(item => {
-        if (item.image) {
-          item.image = 'http://' + req.get('host') + item.image;
-        }
-        return item;
-      });
-
       res.json({
         success: true,
-        data: updatedData,
-        total: updatedData.length,
+        data: jsonData,
+        total: jsonData.length,
       });
 
     } catch (parseErr) {
