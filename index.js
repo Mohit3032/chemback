@@ -217,37 +217,32 @@ app.post('/api/contacts', async (req, res) => {
     const result = await User.create({ name, email, mobile, message });
     console.log('Contact saved:', result);
 
-    // Nodemailer Transporter
-const transporter = nodemailer.createTransport({
-  host: "smtp.hostinger.com",
-  port: 465,
-  secure: true, // Use true for port 465
-  auth: {
-    user: "purchase@divyachemicalindustry.com",
-    pass: "Devraj@4545", // Make sure this is correct and up to date
-  },
-  tls: {
-    rejectUnauthorized: false // Important for Hostinger SSL
-  }
-});
+    // Nodemailer Transporter (Hostinger SMTP)
+    const transporter = nodemailer.createTransport({
+      host: "smtp.hostinger.com",
+      port: 465,
+      secure: true,
+      auth: {
+        user: "purchase@divyachemicalindustry.com",
+        pass: "Devraj@4545",
+      },
+      tls: {
+        rejectUnauthorized: false,
+      },
+    });
 
-
-    // User Email with Image Attachment
+    // User Mail
     const userMailOptions = {
-      from: `"Divya Chemical Industry" <${process.env.EMAIL_USER}>`,
+      from: '"Divya Chemical Industry" <purchase@divyachemicalindustry.com>',
       to: email,
-      replyTo: process.env.EMAIL_USER,
+      replyTo: "purchase@divyachemicalindustry.com",
       subject: 'Welcome to Divya Chemical Industry',
       html: `
         <div style="font-family: Arial, sans-serif; background-color: #f0f2f5; padding: 20px;">
           <div style="max-width: 600px; margin: auto; background: #ffffff; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
-
-            <!-- Header -->
             <div style="background-color: #8c000a; color: #ffffff; padding: 20px; text-align: center;">
               <h2 style="margin: 0;">Thank You for Contacting Divya Chemical Industry</h2>
             </div>
-
-            <!-- Body -->
             <div style="padding: 30px;">
               <p style="font-size: 16px; color: #333;">Dear <strong>${name}</strong>,</p>
               <p style="font-size: 15px; color: #333;">
@@ -262,8 +257,6 @@ const transporter = nodemailer.createTransport({
               <p style="margin-top: 30px; font-size: 15px; color: #333;">Warm regards,</p>
               <p style="font-size: 15px; color: #333;"><strong>The Divya Chemical Industry Team</strong></p>
             </div>
-
-            <!-- Business Info -->
             <div style="background-color: #fbe6e7; padding: 20px; text-align: center;">
               <img src="cid:businessCardImage" alt="Business Card" style="width: 100%; max-width: 500px; border-radius: 6px;" />
               <p style="margin: 10px 0 0; font-size: 14px; color: #555;">
@@ -272,7 +265,6 @@ const transporter = nodemailer.createTransport({
               <p style="font-size: 14px; color: #555;">Phone: +91 98765 43210</p>
               <p style="font-size: 14px; color: #555;">Website: <a href="https://divyachemicalindustry.com" style="color: #8c000a;">divyachemicalindustry.com</a></p>
             </div>
-
             <div style="background-color: #f1f1f1; color: #888; text-align: center; padding: 10px; font-size: 12px;">
               <p style="margin: 0;">&copy; ${new Date().getFullYear()} Divya Chemical Industry. All rights reserved.</p>
             </div>
@@ -283,13 +275,13 @@ const transporter = nodemailer.createTransport({
         filename: 'business-card.jpg',
         path: path.join(__dirname, 'Assets', 'business-card.jpg'),
         cid: 'businessCardImage',
-      }]
+      }],
     };
 
     // Admin Notification
     const adminMailOptions = {
-      from: process.env.EMAIL_USER,
-      to: process.env.EMAIL_USER,
+      from: '"Divya Chemical Industry" <purchase@divyachemicalindustry.com>',
+      to: "purchase@divyachemicalindustry.com",
       subject: 'New Contact Form Submission',
       html: `
         <h2>New Contact Request</h2>
@@ -298,18 +290,18 @@ const transporter = nodemailer.createTransport({
         <p><strong>Mobile:</strong> ${mobile}</p>
         <p><strong>Message:</strong><br>${message}</p>
         <p><em>Submitted at: ${new Date().toLocaleString()}</em></p>
-      `
+      `,
     };
 
-    // Send Emails
+    // Send emails
     await transporter.sendMail(userMailOptions);
     await transporter.sendMail(adminMailOptions);
 
     res.json({ success: true, message: 'Thanks For Contacting Us' });
 
   } catch (error) {
-    console.error("Error in /contacts:", error);
-    res.json({ success: false, error: 'Contact cannot be submitted' });
+    console.error("❌ Error in /api/contacts:", error);
+    res.status(500).json({ success: false, error: 'Contact cannot be submitted' });
   }
 });
 
