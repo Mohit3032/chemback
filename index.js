@@ -355,7 +355,7 @@ app.get('/api', (req, res) => {
               }
             };
 
-            // Use existing image path if it starts with "/products/"
+            // Fix the image path
             let imagePath = product.image || "";
             if (!imagePath.startsWith("/products/")) {
               imagePath = "/products/" + imagePath.replace(/^\/?/, '');
@@ -364,7 +364,7 @@ app.get('/api', (req, res) => {
             return {
               ...product,
               routing_category: categoryData.routing_category,
-              image: `${req.protocol}://${req.get('host')}${imagePath}`,
+              image: `https://${req.get('host')}${imagePath}`, // 🔒 Always HTTPS
               colors: parseJsonArray(product.colors),
               details: {
                 ...product.details,
