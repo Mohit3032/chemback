@@ -207,30 +207,21 @@ app.post('/api/contacts', async (req, res) => {
   const { name, email, mobile, message } = req.body;
 
   try {
-    // Prevent duplicate message
     const existing = await User.findOne({ email, message });
     if (existing) {
       return res.json({ success: false, error: 'Message has already been sent' });
     }
 
-    // Save contact to DB
     await User.create({ name, email, mobile, message });
 
-    // Nodemailer setup
     const transporter = nodemailer.createTransport({
-      host: process.env.SMTP_HOST,
-      port: parseInt(process.env.SMTP_PORT),
-      secure: true,
+      service: 'gmail',
       auth: {
         user: process.env.EMAIL_USER,
         pass: process.env.EMAIL_PASS,
       },
-      tls: {
-        rejectUnauthorized: false,
-      }
     });
 
-    // Email to user
     const userMailOptions = {
       from: `"Divya Chemical Industry" <${process.env.EMAIL_USER}>`,
       to: email,
@@ -266,7 +257,6 @@ app.post('/api/contacts', async (req, res) => {
       }]
     };
 
-    // Email to admin
     const adminMailOptions = {
       from: `"Divya Chemical Industry" <${process.env.EMAIL_USER}>`,
       to: process.env.EMAIL_USER,
@@ -281,22 +271,20 @@ app.post('/api/contacts', async (req, res) => {
       `
     };
 
-    // Send both emails
     await transporter.sendMail(userMailOptions);
     await transporter.sendMail(adminMailOptions);
 
     res.json({ success: true, message: 'Thanks For Contacting Us' });
 
   } catch (err) {
-  console.error('❌ /api/contacts error:', {
-    message: err.message,
-    stack: err.stack,
-    cause: err.cause,
-    name: err.name
-  });
-  res.status(500).json({ success: false, error: err.message || 'Internal server error' });
-}
-
+    console.error('❌ /api/contacts error:', {
+      message: err.message,
+      stack: err.stack,
+      cause: err.cause,
+      name: err.name
+    });
+    res.status(500).json({ success: false, error: err.message || 'Internal server error' });
+  }
 });
 
 
