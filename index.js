@@ -330,11 +330,6 @@ app.get("/api/contact-info", async (req, res) => {
 
 
 // Api link start
-
-app.set('trust proxy', true);
-
-
-
 app.get('/api', (req, res) => {
   const filePath = path.join(__dirname, 'data.json');
   const { category, sort } = req.query;
@@ -352,7 +347,7 @@ app.get('/api', (req, res) => {
       parsedData.forEach(categoryData => {
         if (!category || category === categoryData.routing_category) {
           const categoryProducts = categoryData.products.map(product => {
-            // Helper to parse arrays safely
+            // Ensure colors and other arrays are correctly parsed if they are strings
             const parseJsonArray = (field) => {
               try {
                 return Array.isArray(field) ? field : JSON.parse(field || "[]");
@@ -363,7 +358,7 @@ app.get('/api', (req, res) => {
 
             return {
               ...product,
-              routing_category: categoryData.routing_category,
+              routing_category: categoryData.routing_category, // Add category to each product
               colors: parseJsonArray(product.colors),
               details: {
                 ...product.details,
@@ -372,7 +367,6 @@ app.get('/api', (req, res) => {
               },
             };
           });
-
           jsonData = jsonData.concat(categoryProducts);
         }
       });
@@ -392,10 +386,10 @@ app.get('/api', (req, res) => {
         }
       }
 
-      // ✅ Fix: use HTTPS for images if running behind proxy
+      // Update image URLs with full host path
       const updatedData = jsonData.map(item => {
         if (item.image) {
-          item.image = `${req.protocol}://${req.get('host')}${item.image}`;
+          item.image = 'http://' + req.get('host') + item.image;
         }
         return item;
       });
