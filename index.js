@@ -288,9 +288,15 @@ app.post('/api/contacts', async (req, res) => {
     res.json({ success: true, message: 'Thanks For Contacting Us' });
 
   } catch (err) {
-    console.error('❌ /api/contacts error:', err);
-    res.status(500).json({ success: false, error: 'Something went wrong. Please try again later.' });
-  }
+  console.error('❌ /api/contacts error:', {
+    message: err.message,
+    stack: err.stack,
+    cause: err.cause,
+    name: err.name
+  });
+  res.status(500).json({ success: false, error: err.message || 'Internal server error' });
+}
+
 });
 
 
