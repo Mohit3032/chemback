@@ -1628,31 +1628,9 @@
           "variant": "500ml",
           "brand": "Vim"
         }
-      },
+      }, 
       {
         "id": 5,
-        "title": "Dettol Antiseptic Liquid",
-        "fulldescription": "Dettol Antiseptic Liquid is a trusted antiseptic solution that helps protect against germs and infections. It can be used for cleaning wounds, disinfecting surfaces, and personal hygiene. Its versatile formula makes it a must-have in every household.",
-        "description": "Dettol Antiseptic Liquid by Dettol. Weight: , Dimensions: . Rated None★ (None reviews). . Care: .",
-        "category": "Cleaning_Essentials",
-        "price": {
-          "current": 199,
-          "original": null
-        },
-        "rating": {
-          "stars": null,
-          "reviews_count": null
-        },
-        "colors": [],
-        "quantity": 1,
-        "image": "/products/cle/dal.jpg",
-        "details": {
-          "variant": "500ml",
-          "brand": "Dettol"
-        }
-      },
-      {
-        "id": 6,
         "title": "Pril Dishwash Liquid",
         "fulldescription": "Pril Dishwash Liquid is a powerful grease remover that helps to clean dishes effectively and quickly. Its concentrated formula ensures thorough cleaning with minimal effort, leaving dishes shiny and hygienically clean. Safe for everyday use.",
         "description": "Pril Dishwash Liquid by Pril. Weight: , Dimensions: . Rated None★ (None reviews). . Care: .",
