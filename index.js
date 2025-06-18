@@ -173,7 +173,7 @@ app.post('/api/newsletter', async (req, res) => {
               <p style="margin: 0; font-size: 14px; color: #555;">
                 Website: <a href="https://divyachemicalindustry.com" style="color: #8c000a;">divyachemicalindustry.com</a>
               </p>
-              <p style="font-size: 14px; color: #555;">Email: <a href="mailto:purchase@divyachemicalindustry.com" style="color: #8c000a;">purchase@divyachemicalindustry.com</a></p>
+              <p style="font-size: 14px; color: #555;">Email: <a href="mailto:divyachemicalindustries@gmail.com" style="color: #8c000a;">divyachemicalindustries@gmail.com</a></p>
               <p style="font-size: 14px; color: #555;">Phone: +91 98765 43210</p>
             </div>
 
