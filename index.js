@@ -251,8 +251,8 @@ app.post('/api/contacts', async (req, res) => {
         </div>
       `,
       attachments: [{
-        filename: 'business-card.jpg',
-        path: path.join(__dirname, 'Assets', 'business-card.jpg'),
+        filename: 'business-card.JPG',
+        path: path.join(__dirname, 'Assets', 'business-card.JPG'),
         cid: 'businessCardImage',
       }]
     };
